@@ -2,12 +2,14 @@ package com.pj.tbeots.data.json;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonRootName;
+import com.fasterxml.jackson.annotation.JsonSetter;
+import com.pj.tbeots.data.TeamNameMapper;
 
 import java.util.List;
 
 @JsonRootName(value="matchesTeam")
 public class JsonFixtureList {
-    @JsonProperty(value="team")
+
     private String team;
 
     @JsonProperty(value="competition")
@@ -19,6 +21,11 @@ public class JsonFixtureList {
 
     @JsonProperty(value="match")
     private List<JsonFixture> fixtures;
+
+    @JsonSetter(value="team")
+    public void setTeam(String team) {
+        this.team = TeamNameMapper.mapTeamName(team);
+    }
 
     public String getCompetition() {
         return competition;

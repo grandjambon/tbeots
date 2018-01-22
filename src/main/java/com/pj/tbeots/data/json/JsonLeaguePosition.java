@@ -2,13 +2,31 @@ package com.pj.tbeots.data.json;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonRootName;
+import com.fasterxml.jackson.annotation.JsonSetter;
+import com.pj.tbeots.data.TeamNameMapper;
+
+import java.util.HashMap;
+import java.util.Map;
 
 @JsonRootName(value="team")
 public class JsonLeaguePosition {
+
+    private static Map<String, String> backgroundColorMap = new HashMap<>();
+    private static Map<String, String> foregroundColorMap = new HashMap<>();
+    static {
+        backgroundColorMap.put("City", "#80d4ff");
+        backgroundColorMap.put("United", "#ff3300");
+        backgroundColorMap.put("Arsenal", "#ff0000");
+        backgroundColorMap.put("Chelsea", "#0000e6");
+        backgroundColorMap.put("Liverpool", "#ff3333");
+        backgroundColorMap.put("Spurs", "#ffffff");
+
+        foregroundColorMap.put("Chelsea", "#ffffff");
+    }
+
     @JsonProperty(value="position")
     private int position;
 
-    @JsonProperty(value="name")
     private String name;
 
     @JsonProperty(value="played")
@@ -16,6 +34,20 @@ public class JsonLeaguePosition {
 
     @JsonProperty(value="points")
     private int points;
+
+    private String backgroundColor = "white";
+    private String foregroundColor = "black";
+
+    @JsonSetter(value="name")
+    public void setName(String name) {
+        this.name = TeamNameMapper.mapTeamName(name);
+        if (backgroundColorMap.containsKey(this.name)) {
+            this.backgroundColor = backgroundColorMap.get(this.name);
+        }
+        if (foregroundColorMap.containsKey(this.name)) {
+            this.foregroundColor = foregroundColorMap.get(this.name);
+        }
+    }
 
     public int getPosition() {
         return position;
@@ -32,4 +64,13 @@ public class JsonLeaguePosition {
     public int getPoints() {
         return points;
     }
+
+    public String getBackgroundColor() {
+        return backgroundColor;
+    }
+
+    public String getForegroundColor() {
+        return foregroundColor;
+    }
+
 }

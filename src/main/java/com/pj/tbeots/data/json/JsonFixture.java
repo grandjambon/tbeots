@@ -2,6 +2,8 @@ package com.pj.tbeots.data.json;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonRootName;
+import com.fasterxml.jackson.annotation.JsonSetter;
+import com.pj.tbeots.data.TeamNameMapper;
 
 @JsonRootName(value="match")
 public class JsonFixture {
@@ -18,11 +20,11 @@ public class JsonFixture {
     private String status;
     @JsonProperty(value="homeTeamNo")
     private int homeTeamId;
-    @JsonProperty(value="homeTeamName")
+
     private String homeTeam;
     @JsonProperty(value="awayTeamNo")
     private int awayTeamId;
-    @JsonProperty(value="awayTeamName")
+
     private String awayTeam;
     @JsonProperty(value="round")
     private String round;
@@ -62,6 +64,11 @@ public class JsonFixture {
         return homeTeam;
     }
 
+    @JsonSetter(value="homeTeamName")
+    public void setHomeTeam(String homeTeam) {
+        this.homeTeam = TeamNameMapper.mapTeamName(homeTeam);
+    }
+
     public int getAwayTeamId() {
         return awayTeamId;
     }
@@ -70,4 +77,8 @@ public class JsonFixture {
         return awayTeam;
     }
 
+    @JsonSetter(value="awayTeamName")
+    public void setAwayTeam(String awayTeam) {
+        this.awayTeam = TeamNameMapper.mapTeamName(awayTeam);
+    }
 }

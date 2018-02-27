@@ -4,40 +4,46 @@
 
 <@u.page>
     <center>
-        <table style="border-collapse: collapse; table-layout: fixed; font-family: monospace" width=100%>
-            <tr >
-                <td align="center"><font color="#d9d9d9">Position</font></td>
+        <table style="border-collapse: collapse; table-layout: fixed; font-family: monospace;" width=100%>
+            <tr>
+                <td align="center"></td>
                 <#list leaguePositions as pos>
-                    <td align="center" style="border: 1px solid #ccccff; border-collapse:collapse; background-color: ${pos.backgroundColor}; color: ${pos.foregroundColor}">${pos.position}</td>
+                    <td align="center"><img src="badges/${pos.name}.png" alt="${pos.name}"></td>
                 </#list>
             </tr>
             <tr>
-                <td align="center"><font color="#d9d9d9">Team</font></td>
+                <td align="center">Played</td>
                 <#list leaguePositions as pos>
-                    <td align="center" style="border: 1px solid #ccccff; border-collapse:collapse; background-color: ${pos.backgroundColor}; color: ${pos.foregroundColor}">${pos.name}</td>
+                    <td align="center" style="border: 1px solid #ccccff; border-collapse:collapse; background-color: white">${pos.played}</td>
                 </#list>
             </tr>
             <tr>
-                <td align="center"><font color="#d9d9d9">Played</font></td>
+                <td align="center">Points</td>
                 <#list leaguePositions as pos>
-                    <td align="center" style="border: 1px solid #ccccff; border-collapse:collapse; background-color: ${pos.backgroundColor}; color: ${pos.foregroundColor}">${pos.played}</td>
+                    <td align="center" style="border: 1px solid #ccccff; border-collapse:collapse; background-color: white">${pos.points}</td>
                 </#list>
             </tr>
             <tr>
-                <td align="center"><font color="#d9d9d9">Points</font></td>
+                <td align="center">Max Points</td>
                 <#list leaguePositions as pos>
-                    <td align="center" style="border: 1px solid #ccccff; border-collapse:collapse; background-color: ${pos.backgroundColor}; color: ${pos.foregroundColor}">${pos.points}</td>
+                    <td align="center" style="border: 1px solid #ccccff; border-collapse:collapse; background-color: white">${pos.maxPoints}</td>
+                </#list>
+            </tr>
+            <tr>
+                <td align="center">Can Win League?</td>
+                <#list leaguePositions as pos>
+                    <td align="center" style="border: 1px solid #ccccff; border-collapse:collapse; background-color: white">${pos.canWinLeague}</td>
                 </#list>
             </tr>
         </table>
 
         <br>
-        <table style="border-collapse: collapse; table-layout: fixed; font-family: monospace" width=100%>
+        <table style="border-collapse: collapse; table-layout: fixed; font-family: monospace;" width=100%>
             <#list fixtures as date,fixtures>
                 <tr>
                     <td align="center">${date}</td>
                     <#list fixtures as opponent>
-                        <td align="center" style="border: 1px solid #ccccff; border-collapse:collapse;"><font size="3">${opponent}</font></td>
+                        <td align="center" style="border: 1px solid #ccccff; border-collapse:collapse; background-color: white"><font size="3">${opponent}</font></td>
                     </#list>
                 </tr>
             </#list>

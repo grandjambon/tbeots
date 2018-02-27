@@ -4,7 +4,7 @@
 
 <@u.page>
     <center>
-        <table style="border-collapse: collapse; table-layout: fixed" width=100%>
+        <table style="border-collapse: collapse; table-layout: fixed; font-family: monospace" width=100%>
             <tr >
                 <td align="center"><font color="#d9d9d9">Position</font></td>
                 <#list leaguePositions as pos>
@@ -32,7 +32,7 @@
         </table>
 
         <br>
-        <table style="border-collapse: collapse; table-layout: fixed" width=100%>
+        <table style="border-collapse: collapse; table-layout: fixed; font-family: monospace" width=100%>
             <#list fixtures as date,fixtures>
                 <tr>
                     <td align="center">${date}</td>

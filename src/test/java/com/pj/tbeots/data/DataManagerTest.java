@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
 public class DataManagerTest {
@@ -38,7 +39,7 @@ public class DataManagerTest {
 
         List<JsonFixture> fixtures = manager.getFixtures(arsenalId);
         assertNotNull(fixtures);
-        assertEquals(5, fixtures.size());
+        assertThat(fixtures.isEmpty(), is(false));
     }
 
     @Test

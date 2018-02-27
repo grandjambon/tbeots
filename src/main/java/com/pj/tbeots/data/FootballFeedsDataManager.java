@@ -45,7 +45,13 @@ public class FootballFeedsDataManager implements DataManager {
         om.configure(DeserializationFeature.UNWRAP_ROOT_VALUE, true);
         JsonLeagueTable jsonTeams = om.readerFor(JsonLeagueTable.class).readValue(footballFeeds.getTop6TeamsReader());
 
-        return jsonTeams.getLeaguePositions();
+        List<JsonLeaguePosition> leaguePositions = jsonTeams.getLeaguePositions();
+
+        int leaderPoints = leaguePositions.stream().mapToInt(JsonLeaguePosition::getPoints).max().getAsInt();
+
+        leaguePositions.stream().forEach(pos -> {if (pos.getMaxPoints() < leaderPoints) {pos.setCanWinLeague("NO");} else {pos.setCanWinLeague("YES");}});
+
+        return leaguePositions;
     }
 
     public List<JsonFixture> getFixtures(int teamId) throws IOException {
@@ -111,6 +117,17 @@ public class FootballFeedsDataManager implements DataManager {
         }
         return dateToFixtures;
     }
+
+//    @Override
+//    public Map<String, String> getRandomData() throws IOException {
+//
+//        List<JsonLeaguePosition> leaguePositions = getLeaguePositions();
+//
+//        // calculate max points for everyone
+//
+//        return null;
+//    }
+
 
     private static class DateComparator implements Comparator<String> {
         @Override

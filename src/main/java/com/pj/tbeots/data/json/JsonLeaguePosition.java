@@ -35,6 +35,8 @@ public class JsonLeaguePosition {
     @JsonProperty(value="points")
     private int points;
 
+    private String canWinLeague;
+
     private String backgroundColor = "white";
     private String foregroundColor = "black";
 
@@ -73,4 +75,15 @@ public class JsonLeaguePosition {
         return foregroundColor;
     }
 
+    public int getMaxPoints() {
+        return ((38 - played) * 3) + points;
+    }
+
+    public void setCanWinLeague(String canWinLeague) {
+        this.canWinLeague = canWinLeague;
+    }
+
+    public String getCanWinLeague() {
+        return this.canWinLeague;
+    }
 }

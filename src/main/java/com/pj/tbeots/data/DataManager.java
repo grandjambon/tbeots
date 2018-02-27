@@ -16,4 +16,6 @@ public interface DataManager {
     List<JsonLeaguePosition> getLeaguePositions() throws IOException;
 
     Map<String, List<String>> getFixtures() throws IOException;
+
+//    Map<String, String> getRandomData() throws IOException;
 }

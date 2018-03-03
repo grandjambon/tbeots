@@ -8,4 +8,4 @@ language: java
 #  region: "eu-west-2"
 #  app: "My First Elastic Beanstalk Application"
 #  env: "tbeots"
-#  bucket_name: "the-target-S3-bucket"
+#  bucket_name: "elasticbeanstalk-eu-west-2-307854530528"

@@ -1,1 +1,11 @@
 language: java
+#deploy:
+#  on:
+#    branch: master
+#  provider: elasticbeanstalk
+#  access_key_id: $AWS_ACCESS_KEY_ID
+#  secret_access_key: $AWS_SECRET_KEY_ID
+#  region: "eu-west-2"
+#  app: "My First Elastic Beanstalk Application"
+#  env: "tbeots"
+#  bucket_name: "the-target-S3-bucket"

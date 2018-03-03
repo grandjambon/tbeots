@@ -3,6 +3,7 @@ package com.pj.tbeots.data;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.pj.tbeots.data.json.*;
+import com.pj.tbeots.data.model.Fixture;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -13,8 +14,8 @@ import java.util.regex.Pattern;
 
 public class FootballFeedsDataManager implements DataManager {
 
-    private DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("d MMMM yyyy");
-    private DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("EEE dd/MM");
+    private static final DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("d MMMM yyyy");
+    private static final DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("EEE dd/MM");
 
     private final FootballFeeds footballFeeds;
 
@@ -34,7 +35,7 @@ public class FootballFeedsDataManager implements DataManager {
         JsonTeams jsonTeams = om.readerFor(JsonTeams.class).readValue(footballFeeds.getTeamsReader());
 
         Map<String, JsonTeam> map = new TreeMap<>();
-        jsonTeams.getTeams().stream().forEach(team->map.put(team.getName(), team));
+        jsonTeams.getTeams().forEach(team -> map.put(team.getName(), team));
 
         return map;
     }
@@ -49,7 +50,13 @@ public class FootballFeedsDataManager implements DataManager {
 
         int leaderPoints = leaguePositions.stream().mapToInt(JsonLeaguePosition::getPoints).max().getAsInt();
 
-        leaguePositions.stream().forEach(pos -> {if (pos.getMaxPoints() < leaderPoints) {pos.setCanWinLeague("NO");} else {pos.setCanWinLeague("YES");}});
+        leaguePositions.forEach(pos -> {
+            if (pos.getMaxPoints() < leaderPoints) {
+                pos.setCanWinLeague("NO");
+            } else {
+                pos.setCanWinLeague("YES");
+            }
+        });
 
         return leaguePositions;
     }
@@ -63,71 +70,66 @@ public class FootballFeedsDataManager implements DataManager {
     }
 
     @Override
-    public Map<String, List<String>> getFixtures() throws IOException {
+    public Map<String, List<Fixture>> getFixtures() throws IOException {
         List<JsonLeaguePosition> leagueTable = getLeaguePositions();
         Map<String, JsonTeam> teamToId = getTeams();
 
-        Map<String, Map<String, String>> teamNameToFixtureMap = new TreeMap<>();
+        Map<String, Map<String, Fixture>> teamNameToFixtureMap = new TreeMap<>();
 
         Collection<String> validDates = new TreeSet<>();
 
         for (JsonLeaguePosition position : leagueTable) {
             int id = teamToId.get(position.getName()).getId();
             List<JsonFixture> jsonFixtures = getFixtures(id);
-            Map<String, String> fixtures = new HashMap<>();
+            Map<String, Fixture> fixtures = new HashMap<>();
 
             for (JsonFixture jsonFixture : jsonFixtures) {
                 boolean homeFixture = jsonFixture.getHomeTeamId() == id;
 
                 String opponent = homeFixture ? jsonFixture.getAwayTeam() : jsonFixture.getHomeTeam();
 
-                opponent += homeFixture ? " (H)" : " (A)";
+                Fixture.HomeOrAway homeOrAway = homeFixture ? Fixture.HomeOrAway.home : Fixture.HomeOrAway.away;
+                String dateString = convertDateToCorrectFormat(jsonFixture);
 
-                // Tuesday 30th January 2018
-                String d = jsonFixture.getDate();
-                Pattern pattern = Pattern.compile("[A-Za-z]+ ([0-9]+)[a-z]{2} ([A-Za-z]+) ([0-9]+)");
-                Matcher matcher = pattern.matcher(d);
-                matcher.find();
-                String dayOfMonth = matcher.group(1);
-                String monthAsWord = matcher.group(2);
-                String year = matcher.group(3);
 
-                String fullDate = dayOfMonth + " " + monthAsWord + " " + year;
+                Fixture fixture = new Fixture(dateString, jsonFixture.getTime(), opponent, jsonFixture.getCompetition(), homeOrAway);
 
-                LocalDate date = LocalDate.parse(fullDate, inputFormatter);
-                String dateString = outputFormatter.format(date);
-
-                fixtures.put(dateString, opponent);
+                fixtures.put(dateString, fixture);
                 validDates.add(dateString);
             }
 
             teamNameToFixtureMap.put(position.getName(), fixtures);
         }
 
-        Map<String, List<String>> dateToFixtures = new TreeMap<>(new DateComparator());
+        Map<String, List<Fixture>> dateToFixtures = new TreeMap<>(new DateComparator());
 
         for (String date : validDates) {
-            List<String> matches = new ArrayList<>();
+            List<Fixture> matches = new ArrayList<>();
             for (JsonLeaguePosition position : leagueTable) {
-                Map<String, String> dateToFixturesMap = teamNameToFixtureMap.get(position.getName());
-                String opponent = dateToFixturesMap.get(date);
-                matches.add(opponent == null ? "" : opponent);
+                Map<String, Fixture> dateToFixturesMap = teamNameToFixtureMap.get(position.getName());
+                Fixture fixture = dateToFixturesMap.get(date);
+                matches.add(fixture);
             }
             dateToFixtures.put(date, matches);
         }
         return dateToFixtures;
     }
 
-//    @Override
-//    public Map<String, String> getRandomData() throws IOException {
-//
-//        List<JsonLeaguePosition> leaguePositions = getLeaguePositions();
-//
-//        // calculate max points for everyone
-//
-//        return null;
-//    }
+    private String convertDateToCorrectFormat(JsonFixture jsonFixture) {
+        // Tuesday 30th January 2018
+        String d = jsonFixture.getDate();
+        Pattern pattern = Pattern.compile("[A-Za-z]+ ([0-9]+)[a-z]{2} ([A-Za-z]+) ([0-9]+)");
+        Matcher matcher = pattern.matcher(d);
+        matcher.find();
+        String dayOfMonth = matcher.group(1);
+        String monthAsWord = matcher.group(2);
+        String year = matcher.group(3);
 
+        String fullDate = dayOfMonth + " " + monthAsWord + " " + year;
+
+        LocalDate date = LocalDate.parse(fullDate, inputFormatter);
+        return outputFormatter.format(date);
+    }
 
     private static class DateComparator implements Comparator<String> {
         @Override

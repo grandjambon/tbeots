@@ -125,7 +125,7 @@
                         <version>1.4.3.RELEASE</version>
                         <configuration>
                             <!-- this will get rid of version info from war file name -->
-                            <finalName>${project.artifactId}-${maven.build.timestamp}</finalName>
+                            <finalName>${project.artifactId}</finalName>
                         </configuration>
                     </plugin>
                 </plugins>

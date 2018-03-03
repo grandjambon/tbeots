@@ -102,7 +102,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <artifact-packaging>war</artifact-packaging>
+                <artifact-packaging>jar</artifact-packaging>
             </properties>
         </profile>
         <profile>
@@ -125,7 +125,7 @@
                         <version>1.4.3.RELEASE</version>
                         <configuration>
                             <!-- this will get rid of version info from war file name -->
-                            <finalName>${project.artifactId}</finalName>
+                            <finalName>${project.artifactId}-${maven.build.timestamp}</finalName>
                         </configuration>
                     </plugin>
                 </plugins>

@@ -7,6 +7,7 @@ deploy:
   region: eu-west-2
   app: My First Elastic Beanstalk Application
   env: tbeots
+  bucket_name: elasticbeanstalk-eu-west-2-307854530528
   on:
     repo: grandjambon/tbeots
     branch: master

@@ -5,7 +5,7 @@ deploy:
   secret_access_key:
     secure: p6YSoAYR2P8E0TgBQy6mN0HrAtldNqkF2Az0xf0A1xAcPBnLrVPD07SND895EzgmwCvHA9sQvxw1Ow0JLL+mlVE5c9TYBLeCKB/5GjxGFhnnxTeqomVrcYl/E6zeFqbDfglt+ssBTTSIXV+ILA8MevTXzfVw0FeLID6ThXSAekwF0dQUu9Tl6ue86YlfhlYPMnYkQmW5M+nT6pMb1dNOEk1/BL+qwOq35sXBihGq+1jBVEKX+Vg/XFunq2IVHsBdhfrMK2UOLZDGC5Bzn6Gbl0uetjXTsCKUw+juTjuNA9VDkVvpUtIVewsPjYaO9Iiy5lJ1ICJl+OTDYOjE+nx4k+h/Zokm7Oop/ShIEPpRqmi/I3ZH7M2MzA86XTVxRYLmUO1lko9+5rXpmTlPi1P68m5SilEbrXCpGjLwQJPrPIPSwRHBIivek7LTJGq8rhYnf4apAzqsGbETxK3xX3mCeo95BeiH5L4GOlI9I87bc6wo9RjgIVKyg7GPaHdlvivah8AMp484ieNLdLoOBOPvkm0edNZz8fwrQhcjhT1xYJxgbcYS89m3QrJvIK7s0fZ2Iub7y/PvTcz6yMZZgSPqg/P+aHdguKnGUoa7qJyFrFtl90fz+51uAcbiTAJwQf1D6TcqJzhOEjFhAJ1N2Xv4ND5NM4E2FMKJ0Js7ZVgnd64=
   region: eu-west-2
-  zip_file: 'target/tbeots.war'
+  zip_file: 'target/tbeots-1.2-SNAPSHOT.war'
   app: My First Elastic Beanstalk Application
   env: tbeots
   bucket_name: elasticbeanstalk-eu-west-2-307854530528

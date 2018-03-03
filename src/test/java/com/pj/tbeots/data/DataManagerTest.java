@@ -4,6 +4,7 @@ import com.pj.tbeots.data.external.LiveFootballFeeds;
 import com.pj.tbeots.data.json.JsonFixture;
 import com.pj.tbeots.data.json.JsonLeaguePosition;
 import com.pj.tbeots.data.json.JsonTeam;
+import com.pj.tbeots.data.model.Fixture;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -59,7 +60,7 @@ public class DataManagerTest {
 
     @Test
     public void testAllFixtures() throws IOException {
-        Map<String, List<String>> fixtures = manager.getFixtures();
+        Map<String, List<Fixture>> fixtures = manager.getFixtures();
         assertNotNull(fixtures);
     }
 

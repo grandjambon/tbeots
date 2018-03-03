@@ -2,6 +2,7 @@ package com.pj.tbeots.data;
 
 import com.pj.tbeots.data.json.JsonLeaguePosition;
 import com.pj.tbeots.data.json.JsonTeam;
+import com.pj.tbeots.data.model.Fixture;
 
 import java.io.IOException;
 import java.util.List;
@@ -15,7 +16,5 @@ public interface DataManager {
 
     List<JsonLeaguePosition> getLeaguePositions() throws IOException;
 
-    Map<String, List<String>> getFixtures() throws IOException;
-
-//    Map<String, String> getRandomData() throws IOException;
+    Map<String, List<Fixture>> getFixtures() throws IOException;
 }

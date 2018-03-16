@@ -102,8 +102,20 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <artifact-packaging>jar</artifact-packaging>
+                <artifact-packaging>war</artifact-packaging>
             </properties>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-maven-plugin</artifactId>
+                        <version>1.4.3.RELEASE</version>
+                        <configuration>
+                            <finalName>${project.artifactId}</finalName>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
         </profile>
         <profile>
             <id>remote</id>
@@ -124,13 +136,13 @@
                         <artifactId>spring-boot-maven-plugin</artifactId>
                         <version>1.4.3.RELEASE</version>
                         <configuration>
-                            <!-- this will get rid of version info from war file name -->
-                            <finalName>${project.artifactId}-${maven.build.timestamp}</finalName>
+                            <finalName>${project.artifactId}</finalName>
                         </configuration>
                     </plugin>
                 </plugins>
             </build>
         </profile>
     </profiles>
+
 
 </project>

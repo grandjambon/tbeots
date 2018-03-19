@@ -1,7 +1,7 @@
 package com.pj.tbeots.springboot;
 
 import com.pj.tbeots.data.BufferedDataManager;
-import com.pj.tbeots.data.DataManager;
+import com.pj.tbeots.data.DataHelper;
 import com.pj.tbeots.data.FootballFeedsDataManager;
 import com.pj.tbeots.data.external.LiveFootballFeeds;
 import org.springframework.context.annotation.Bean;
@@ -13,8 +13,15 @@ import org.springframework.context.annotation.Scope;
 public class TbeotsConfiguration {
     @Bean
     @Scope("singleton")
-    public DataManager getDataManager() {
+    public BufferedDataManager getDataManager() {
         return new BufferedDataManager(new FootballFeedsDataManager(new LiveFootballFeeds()));
+    }
+
+    // this is going to become the interface for getting the data for each controller
+    @Bean
+    @Scope
+    public DataHelper getDataHelper() {
+        return new DataHelper(null);
     }
 
 }

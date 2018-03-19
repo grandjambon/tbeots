@@ -1,0 +1,109 @@
+{
+  "matchesTeam": {
+    "team": "Arsenal",
+    "description": "Fixtures / Results",
+    "match": [
+      {
+        "id": "22266",
+        "date": "Sunday 1st April 2018",
+        "time": "13:30:00",
+        "competition": "Premier League",
+        "status": "Kick off 1.30pm",
+        "homeTeamNo": "1",
+        "homeTeamName": "Arsenal",
+        "awayTeamNo": "39",
+        "awayTeamName": "Stoke City"
+      },
+      {
+        "id": "23247",
+        "date": "Thursday 5th April 2018",
+        "time": "20:05:00",
+        "competition": "Europa League",
+        "round": "Quarter Final",
+        "status": "Kick off 8.05pm",
+        "homeTeamNo": "1",
+        "homeTeamName": "Arsenal",
+        "awayTeamNo": "924",
+        "awayTeamName": "CSKA Moscow"
+      },
+      {
+        "id": "23237",
+        "date": "Sunday 8th April 2018",
+        "time": "14:15:00",
+        "competition": "Premier League",
+        "status": "Kick off 2.15pm",
+        "homeTeamNo": "1",
+        "homeTeamName": "Arsenal",
+        "awayTeamNo": "18",
+        "awayTeamName": "Southampton"
+      },
+      {
+        "id": "23251",
+        "date": "Thursday 12th April 2018",
+        "time": "20:05:00",
+        "competition": "Europa League",
+        "round": "Quarter Final",
+        "status": "Kick off 8.05pm",
+        "homeTeamNo": "924",
+        "homeTeamName": "CSKA Moscow",
+        "awayTeamNo": "1",
+        "awayTeamName": "Arsenal"
+      },
+      {
+        "id": "22750",
+        "date": "Sunday 15th April 2018",
+        "time": "13:30:00",
+        "competition": "Premier League",
+        "status": "Kick off 1.30pm",
+        "homeTeamNo": "15",
+        "homeTeamName": "Newcastle United",
+        "awayTeamNo": "1",
+        "awayTeamName": "Arsenal"
+      },
+      {
+        "id": "22756",
+        "date": "Monday 23rd April 2018",
+        "time": "20:00:00",
+        "competition": "Premier League",
+        "status": "Kick off 8pm",
+        "homeTeamNo": "1",
+        "homeTeamName": "Arsenal",
+        "awayTeamNo": "42",
+        "awayTeamName": "West Ham United"
+      },
+      {
+        "id": "22758",
+        "date": "Sunday 29th April 2018",
+        "time": "16:30:00",
+        "competition": "Premier League",
+        "status": "Kick off 4.30pm",
+        "homeTeamNo": "13",
+        "homeTeamName": "Manchester United",
+        "awayTeamNo": "1",
+        "awayTeamName": "Arsenal"
+      },
+      {
+        "id": "13975",
+        "date": "Saturday 5th May 2018",
+        "time": "15:00:00",
+        "competition": "Premier League",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "1",
+        "homeTeamName": "Arsenal",
+        "awayTeamNo": "22",
+        "awayTeamName": "Burnley"
+      },
+      {
+        "id": "13986",
+        "date": "Sunday 13th May 2018",
+        "time": "15:00:00",
+        "competition": "Premier League",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "55",
+        "homeTeamName": "Huddersfield Town",
+        "awayTeamNo": "1",
+        "awayTeamName": "Arsenal"
+      }
+    ]
+  }
+}

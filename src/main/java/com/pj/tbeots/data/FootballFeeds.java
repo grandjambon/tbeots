@@ -6,7 +6,9 @@ import java.io.Reader;
 public interface FootballFeeds {
     Reader getTeamsReader() throws IOException;
 
-    Reader getTop6TeamsReader() throws IOException;
+    Reader getLeagueTableReader() throws IOException;
 
     Reader getFixtureListReader(int teamId) throws IOException;
+
+    Reader getAllFixturesReader(int competition) throws IOException;
 }

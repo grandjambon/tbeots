@@ -1,0 +1,88 @@
+{
+  "teams": {
+    "competition": "Premier League",
+    "description": "List of teams",
+    "team": [
+      {
+        "id": "47",
+        "name": "AFC Bournemouth"
+      },
+      {
+        "id": "1",
+        "name": "Arsenal"
+      },
+      {
+        "id": "21",
+        "name": "Brighton & Hove Albion"
+      },
+      {
+        "id": "22",
+        "name": "Burnley"
+      },
+      {
+        "id": "7",
+        "name": "Chelsea"
+      },
+      {
+        "id": "8",
+        "name": "Crystal Palace"
+      },
+      {
+        "id": "9",
+        "name": "Everton"
+      },
+      {
+        "id": "55",
+        "name": "Huddersfield Town"
+      },
+      {
+        "id": "30",
+        "name": "Leicester City"
+      },
+      {
+        "id": "11",
+        "name": "Liverpool"
+      },
+      {
+        "id": "12",
+        "name": "Manchester City"
+      },
+      {
+        "id": "13",
+        "name": "Manchester United"
+      },
+      {
+        "id": "15",
+        "name": "Newcastle United"
+      },
+      {
+        "id": "18",
+        "name": "Southampton"
+      },
+      {
+        "id": "39",
+        "name": "Stoke City"
+      },
+      {
+        "id": "90",
+        "name": "Swansea City"
+      },
+      {
+        "id": "19",
+        "name": "Tottenham Hotspur"
+      },
+      {
+        "id": "41",
+        "name": "Watford"
+      },
+      {
+        "id": "20",
+        "name": "West Bromwich Albion"
+      },
+      {
+        "id": "42",
+        "name": "West Ham United"
+      }
+    ]
+  }
+}

@@ -7,30 +7,32 @@ import com.pj.tbeots.data.TeamNameMapper;
 
 import java.util.List;
 
-@JsonRootName(value="matchesCompetition")
-public class JsonFixtureList {
+@JsonRootName(value="matchesTeam")
+public class JsonMultiCompFixtureList {
 
     private String team;
-
-    @JsonProperty(value="description")
-    private String description;
 
     @JsonProperty(value="competition")
     private String competition;
 
+    @JsonProperty(value="description")
+    private String description;
+
+
     @JsonProperty(value="match")
-    private List<JsonFixture> fixtures;
+    private List<JsonMultiCompFixture> fixtures;
 
     @JsonSetter(value="team")
     public void setTeam(String team) {
         this.team = TeamNameMapper.mapTeamName(team);
     }
 
-    public List<JsonFixture> getFixtures() {
-        return fixtures;
-    }
-
     public String getCompetition() {
         return competition;
     }
+
+    public List<JsonMultiCompFixture> getFixtures() {
+        return fixtures;
+    }
+
 }

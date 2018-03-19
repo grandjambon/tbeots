@@ -1,0 +1,128 @@
+{
+  "leagueTable": {
+    "competition": "Premier League",
+    "description": "League Table",
+    "team": [
+      {
+        "position": "1",
+        "name": "Manchester City",
+        "played": "30",
+        "points": "81"
+      },
+      {
+        "position": "2",
+        "name": "Manchester United",
+        "played": "30",
+        "points": "65"
+      },
+      {
+        "position": "3",
+        "name": "Liverpool",
+        "played": "31",
+        "points": "63"
+      },
+      {
+        "position": "4",
+        "name": "Tottenham Hotspur",
+        "played": "30",
+        "points": "61"
+      },
+      {
+        "position": "5",
+        "name": "Chelsea",
+        "played": "30",
+        "points": "56"
+      },
+      {
+        "position": "6",
+        "name": "Arsenal",
+        "played": "30",
+        "points": "48"
+      },
+      {
+        "position": "7",
+        "name": "Burnley",
+        "played": "30",
+        "points": "43"
+      },
+      {
+        "position": "8",
+        "name": "Leicester City",
+        "played": "30",
+        "points": "40"
+      },
+      {
+        "position": "9",
+        "name": "Everton",
+        "played": "31",
+        "points": "40"
+      },
+      {
+        "position": "10",
+        "name": "AFC Bournemouth",
+        "played": "31",
+        "points": "36"
+      },
+      {
+        "position": "11",
+        "name": "Watford",
+        "played": "31",
+        "points": "36"
+      },
+      {
+        "position": "12",
+        "name": "Brighton & Hove Albion",
+        "played": "30",
+        "points": "34"
+      },
+      {
+        "position": "13",
+        "name": "Newcastle United",
+        "played": "30",
+        "points": "32"
+      },
+      {
+        "position": "14",
+        "name": "Swansea City",
+        "played": "30",
+        "points": "31"
+      },
+      {
+        "position": "15",
+        "name": "Huddersfield Town",
+        "played": "31",
+        "points": "31"
+      },
+      {
+        "position": "16",
+        "name": "Crystal Palace",
+        "played": "31",
+        "points": "30"
+      },
+      {
+        "position": "17",
+        "name": "West Ham United",
+        "played": "30",
+        "points": "30"
+      },
+      {
+        "position": "18",
+        "name": "Southampton",
+        "played": "30",
+        "points": "28"
+      },
+      {
+        "position": "19",
+        "name": "Stoke City",
+        "played": "31",
+        "points": "27"
+      },
+      {
+        "position": "20",
+        "name": "West Bromwich Albion",
+        "played": "31",
+        "points": "20"
+      }
+    ]
+  }
+}

@@ -10,11 +10,12 @@ import java.util.Map;
 
 public interface DataManager {
 
-    void refreshCache(String cacheToken) throws IOException;
+    void refreshCache() throws IOException;
 
     Map<String, JsonTeam> getTeams() throws IOException;
 
     List<JsonLeaguePosition> getLeaguePositions() throws IOException;
 
-    Map<String, List<Fixture>> getFixtures() throws IOException;
+    Map<String, List<Fixture>> getFixtures(List<JsonLeaguePosition> positions) throws IOException;
+
 }

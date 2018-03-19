@@ -1,0 +1,708 @@
+{
+  "matchesCompetition": {
+    "competition": "Premier League",
+    "description": "Fixtures / Results",
+    "match": [
+      {
+        "id": "13927",
+        "date": "Saturday 31st March 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "21",
+        "homeTeamName": "Brighton & Hove Albion",
+        "awayTeamNo": "30",
+        "awayTeamName": "Leicester City"
+      },
+      {
+        "id": "13929",
+        "date": "Saturday 31st March 2018",
+        "time": "12:30:00",
+        "status": "Kick off 12.30pm",
+        "homeTeamNo": "8",
+        "homeTeamName": "Crystal Palace",
+        "awayTeamNo": "11",
+        "awayTeamName": "Liverpool"
+      },
+      {
+        "id": "13930",
+        "date": "Saturday 31st March 2018",
+        "time": "17:30:00",
+        "status": "Kick off 5.30pm",
+        "homeTeamNo": "9",
+        "homeTeamName": "Everton",
+        "awayTeamNo": "12",
+        "awayTeamName": "Manchester City"
+      },
+      {
+        "id": "13931",
+        "date": "Saturday 31st March 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "13",
+        "homeTeamName": "Manchester United",
+        "awayTeamNo": "90",
+        "awayTeamName": "Swansea City"
+      },
+      {
+        "id": "13932",
+        "date": "Saturday 31st March 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "15",
+        "homeTeamName": "Newcastle United",
+        "awayTeamNo": "55",
+        "awayTeamName": "Huddersfield Town"
+      },
+      {
+        "id": "13933",
+        "date": "Saturday 31st March 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "41",
+        "homeTeamName": "Watford",
+        "awayTeamNo": "47",
+        "awayTeamName": "AFC Bournemouth"
+      },
+      {
+        "id": "13934",
+        "date": "Saturday 31st March 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "20",
+        "homeTeamName": "West Bromwich Albion",
+        "awayTeamNo": "22",
+        "awayTeamName": "Burnley"
+      },
+      {
+        "id": "13925",
+        "date": "Saturday 31st March 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "42",
+        "homeTeamName": "West Ham United",
+        "awayTeamNo": "18",
+        "awayTeamName": "Southampton"
+      },
+      {
+        "id": "22266",
+        "date": "Sunday 1st April 2018",
+        "time": "13:30:00",
+        "status": "Kick off 1.30pm",
+        "homeTeamNo": "1",
+        "homeTeamName": "Arsenal",
+        "awayTeamNo": "39",
+        "awayTeamName": "Stoke City"
+      },
+      {
+        "id": "22267",
+        "date": "Sunday 1st April 2018",
+        "time": "16:00:00",
+        "status": "Kick off 4pm",
+        "homeTeamNo": "7",
+        "homeTeamName": "Chelsea",
+        "awayTeamNo": "19",
+        "awayTeamName": "Tottenham Hotspur"
+      },
+      {
+        "id": "13935",
+        "date": "Saturday 7th April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "47",
+        "homeTeamName": "AFC Bournemouth",
+        "awayTeamNo": "8",
+        "awayTeamName": "Crystal Palace"
+      },
+      {
+        "id": "13936",
+        "date": "Saturday 7th April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "21",
+        "homeTeamName": "Brighton & Hove Albion",
+        "awayTeamNo": "55",
+        "awayTeamName": "Huddersfield Town"
+      },
+      {
+        "id": "23236",
+        "date": "Saturday 7th April 2018",
+        "time": "12:30:00",
+        "status": "Kick off 12.30pm",
+        "homeTeamNo": "9",
+        "homeTeamName": "Everton",
+        "awayTeamNo": "11",
+        "awayTeamName": "Liverpool"
+      },
+      {
+        "id": "13939",
+        "date": "Saturday 7th April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "30",
+        "homeTeamName": "Leicester City",
+        "awayTeamNo": "15",
+        "awayTeamName": "Newcastle United"
+      },
+      {
+        "id": "13940",
+        "date": "Saturday 7th April 2018",
+        "time": "17:30:00",
+        "status": "Kick off 5.30pm",
+        "homeTeamNo": "12",
+        "homeTeamName": "Manchester City",
+        "awayTeamNo": "13",
+        "awayTeamName": "Manchester United"
+      },
+      {
+        "id": "13941",
+        "date": "Saturday 7th April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "39",
+        "homeTeamName": "Stoke City",
+        "awayTeamNo": "19",
+        "awayTeamName": "Tottenham Hotspur"
+      },
+      {
+        "id": "13942",
+        "date": "Saturday 7th April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "41",
+        "homeTeamName": "Watford",
+        "awayTeamNo": "22",
+        "awayTeamName": "Burnley"
+      },
+      {
+        "id": "13943",
+        "date": "Saturday 7th April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "20",
+        "homeTeamName": "West Bromwich Albion",
+        "awayTeamNo": "90",
+        "awayTeamName": "Swansea City"
+      },
+      {
+        "id": "23237",
+        "date": "Sunday 8th April 2018",
+        "time": "14:15:00",
+        "status": "Kick off 2.15pm",
+        "homeTeamNo": "1",
+        "homeTeamName": "Arsenal",
+        "awayTeamNo": "18",
+        "awayTeamName": "Southampton"
+      },
+      {
+        "id": "22748",
+        "date": "Sunday 8th April 2018",
+        "time": "16:30:00",
+        "status": "Kick off 4.30pm",
+        "homeTeamNo": "7",
+        "homeTeamName": "Chelsea",
+        "awayTeamNo": "42",
+        "awayTeamName": "West Ham United"
+      },
+      {
+        "id": "13954",
+        "date": "Saturday 14th April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "22",
+        "homeTeamName": "Burnley",
+        "awayTeamNo": "30",
+        "awayTeamName": "Leicester City"
+      },
+      {
+        "id": "13945",
+        "date": "Saturday 14th April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "8",
+        "homeTeamName": "Crystal Palace",
+        "awayTeamNo": "21",
+        "awayTeamName": "Brighton & Hove Albion"
+      },
+      {
+        "id": "13946",
+        "date": "Saturday 14th April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "55",
+        "homeTeamName": "Huddersfield Town",
+        "awayTeamNo": "41",
+        "awayTeamName": "Watford"
+      },
+      {
+        "id": "13947",
+        "date": "Saturday 14th April 2018",
+        "time": "17:30:00",
+        "status": "Kick off 5.30pm",
+        "homeTeamNo": "11",
+        "homeTeamName": "Liverpool",
+        "awayTeamNo": "47",
+        "awayTeamName": "AFC Bournemouth"
+      },
+      {
+        "id": "13951",
+        "date": "Saturday 14th April 2018",
+        "time": "12:30:00",
+        "status": "Kick off 12.30pm",
+        "homeTeamNo": "18",
+        "homeTeamName": "Southampton",
+        "awayTeamNo": "7",
+        "awayTeamName": "Chelsea"
+      },
+      {
+        "id": "13950",
+        "date": "Saturday 14th April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "90",
+        "homeTeamName": "Swansea City",
+        "awayTeamNo": "9",
+        "awayTeamName": "Everton"
+      },
+      {
+        "id": "13952",
+        "date": "Saturday 14th April 2018",
+        "time": "19:45:00",
+        "status": "Kick off 7.45pm",
+        "homeTeamNo": "19",
+        "homeTeamName": "Tottenham Hotspur",
+        "awayTeamNo": "12",
+        "awayTeamName": "Manchester City"
+      },
+      {
+        "id": "22751",
+        "date": "Sunday 15th April 2018",
+        "time": "16:00:00",
+        "status": "Kick off 4pm",
+        "homeTeamNo": "13",
+        "homeTeamName": "Manchester United",
+        "awayTeamNo": "20",
+        "awayTeamName": "West Bromwich Albion"
+      },
+      {
+        "id": "22750",
+        "date": "Sunday 15th April 2018",
+        "time": "13:30:00",
+        "status": "Kick off 1.30pm",
+        "homeTeamNo": "15",
+        "homeTeamName": "Newcastle United",
+        "awayTeamNo": "1",
+        "awayTeamName": "Arsenal"
+      },
+      {
+        "id": "22752",
+        "date": "Monday 16th April 2018",
+        "time": "20:00:00",
+        "status": "Kick off 8pm",
+        "homeTeamNo": "42",
+        "homeTeamName": "West Ham United",
+        "awayTeamNo": "39",
+        "awayTeamName": "Stoke City"
+      },
+      {
+        "id": "22753",
+        "date": "Friday 20th April 2018",
+        "time": "20:00:00",
+        "status": "Kick off 8pm",
+        "homeTeamNo": "21",
+        "homeTeamName": "Brighton & Hove Albion",
+        "awayTeamNo": "19",
+        "awayTeamName": "Tottenham Hotspur"
+      },
+      {
+        "id": "13955",
+        "date": "Saturday 21st April 2018",
+        "time": "17:30:00",
+        "status": "Kick off 5.30pm",
+        "homeTeamNo": "47",
+        "homeTeamName": "AFC Bournemouth",
+        "awayTeamNo": "13",
+        "awayTeamName": "Manchester United"
+      },
+      {
+        "id": "13958",
+        "date": "Saturday 21st April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "7",
+        "homeTeamName": "Chelsea",
+        "awayTeamNo": "55",
+        "awayTeamName": "Huddersfield Town"
+      },
+      {
+        "id": "13959",
+        "date": "Saturday 21st April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "9",
+        "homeTeamName": "Everton",
+        "awayTeamNo": "15",
+        "awayTeamName": "Newcastle United"
+      },
+      {
+        "id": "13960",
+        "date": "Saturday 21st April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "30",
+        "homeTeamName": "Leicester City",
+        "awayTeamNo": "18",
+        "awayTeamName": "Southampton"
+      },
+      {
+        "id": "13962",
+        "date": "Saturday 21st April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "39",
+        "homeTeamName": "Stoke City",
+        "awayTeamNo": "22",
+        "awayTeamName": "Burnley"
+      },
+      {
+        "id": "13963",
+        "date": "Saturday 21st April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "41",
+        "homeTeamName": "Watford",
+        "awayTeamNo": "8",
+        "awayTeamName": "Crystal Palace"
+      },
+      {
+        "id": "22755",
+        "date": "Sunday 22nd April 2018",
+        "time": "16:30:00",
+        "status": "Kick off 4.30pm",
+        "homeTeamNo": "12",
+        "homeTeamName": "Manchester City",
+        "awayTeamNo": "90",
+        "awayTeamName": "Swansea City"
+      },
+      {
+        "id": "22754",
+        "date": "Sunday 22nd April 2018",
+        "time": "14:15:00",
+        "status": "Kick off 2.15pm",
+        "homeTeamNo": "20",
+        "homeTeamName": "West Bromwich Albion",
+        "awayTeamNo": "11",
+        "awayTeamName": "Liverpool"
+      },
+      {
+        "id": "22756",
+        "date": "Monday 23rd April 2018",
+        "time": "20:00:00",
+        "status": "Kick off 8pm",
+        "homeTeamNo": "1",
+        "homeTeamName": "Arsenal",
+        "awayTeamNo": "42",
+        "awayTeamName": "West Ham United"
+      },
+      {
+        "id": "13965",
+        "date": "Saturday 28th April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "22",
+        "homeTeamName": "Burnley",
+        "awayTeamNo": "21",
+        "awayTeamName": "Brighton & Hove Albion"
+      },
+      {
+        "id": "13974",
+        "date": "Saturday 28th April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "8",
+        "homeTeamName": "Crystal Palace",
+        "awayTeamNo": "30",
+        "awayTeamName": "Leicester City"
+      },
+      {
+        "id": "13966",
+        "date": "Saturday 28th April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "55",
+        "homeTeamName": "Huddersfield Town",
+        "awayTeamNo": "9",
+        "awayTeamName": "Everton"
+      },
+      {
+        "id": "13967",
+        "date": "Saturday 28th April 2018",
+        "time": "12:30:00",
+        "status": "Kick off 12.30pm",
+        "homeTeamNo": "11",
+        "homeTeamName": "Liverpool",
+        "awayTeamNo": "39",
+        "awayTeamName": "Stoke City"
+      },
+      {
+        "id": "13969",
+        "date": "Saturday 28th April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "15",
+        "homeTeamName": "Newcastle United",
+        "awayTeamNo": "20",
+        "awayTeamName": "West Bromwich Albion"
+      },
+      {
+        "id": "13972",
+        "date": "Saturday 28th April 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "18",
+        "homeTeamName": "Southampton",
+        "awayTeamNo": "47",
+        "awayTeamName": "AFC Bournemouth"
+      },
+      {
+        "id": "13970",
+        "date": "Saturday 28th April 2018",
+        "time": "17:30:00",
+        "status": "Kick off 5.30pm",
+        "homeTeamNo": "90",
+        "homeTeamName": "Swansea City",
+        "awayTeamNo": "7",
+        "awayTeamName": "Chelsea"
+      },
+      {
+        "id": "22758",
+        "date": "Sunday 29th April 2018",
+        "time": "16:30:00",
+        "status": "Kick off 4.30pm",
+        "homeTeamNo": "13",
+        "homeTeamName": "Manchester United",
+        "awayTeamNo": "1",
+        "awayTeamName": "Arsenal"
+      },
+      {
+        "id": "22757",
+        "date": "Sunday 29th April 2018",
+        "time": "14:15:00",
+        "status": "Kick off 2.15pm",
+        "homeTeamNo": "42",
+        "homeTeamName": "West Ham United",
+        "awayTeamNo": "12",
+        "awayTeamName": "Manchester City"
+      },
+      {
+        "id": "22759",
+        "date": "Monday 30th April 2018",
+        "time": "20:00:00",
+        "status": "Kick off 8pm",
+        "homeTeamNo": "19",
+        "homeTeamName": "Tottenham Hotspur",
+        "awayTeamNo": "41",
+        "awayTeamName": "Watford"
+      },
+      {
+        "id": "13984",
+        "date": "Saturday 5th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "47",
+        "homeTeamName": "AFC Bournemouth",
+        "awayTeamNo": "90",
+        "awayTeamName": "Swansea City"
+      },
+      {
+        "id": "13975",
+        "date": "Saturday 5th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "1",
+        "homeTeamName": "Arsenal",
+        "awayTeamNo": "22",
+        "awayTeamName": "Burnley"
+      },
+      {
+        "id": "13976",
+        "date": "Saturday 5th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "21",
+        "homeTeamName": "Brighton & Hove Albion",
+        "awayTeamNo": "13",
+        "awayTeamName": "Manchester United"
+      },
+      {
+        "id": "13977",
+        "date": "Saturday 5th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "7",
+        "homeTeamName": "Chelsea",
+        "awayTeamNo": "11",
+        "awayTeamName": "Liverpool"
+      },
+      {
+        "id": "13978",
+        "date": "Saturday 5th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "9",
+        "homeTeamName": "Everton",
+        "awayTeamNo": "18",
+        "awayTeamName": "Southampton"
+      },
+      {
+        "id": "13979",
+        "date": "Saturday 5th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "30",
+        "homeTeamName": "Leicester City",
+        "awayTeamNo": "42",
+        "awayTeamName": "West Ham United"
+      },
+      {
+        "id": "13980",
+        "date": "Saturday 5th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "12",
+        "homeTeamName": "Manchester City",
+        "awayTeamNo": "55",
+        "awayTeamName": "Huddersfield Town"
+      },
+      {
+        "id": "13981",
+        "date": "Saturday 5th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "39",
+        "homeTeamName": "Stoke City",
+        "awayTeamNo": "8",
+        "awayTeamName": "Crystal Palace"
+      },
+      {
+        "id": "13982",
+        "date": "Saturday 5th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "41",
+        "homeTeamName": "Watford",
+        "awayTeamNo": "15",
+        "awayTeamName": "Newcastle United"
+      },
+      {
+        "id": "13983",
+        "date": "Saturday 5th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "20",
+        "homeTeamName": "West Bromwich Albion",
+        "awayTeamNo": "19",
+        "awayTeamName": "Tottenham Hotspur"
+      },
+      {
+        "id": "13994",
+        "date": "Sunday 13th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "22",
+        "homeTeamName": "Burnley",
+        "awayTeamNo": "47",
+        "awayTeamName": "AFC Bournemouth"
+      },
+      {
+        "id": "13993",
+        "date": "Sunday 13th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "8",
+        "homeTeamName": "Crystal Palace",
+        "awayTeamNo": "20",
+        "awayTeamName": "West Bromwich Albion"
+      },
+      {
+        "id": "13986",
+        "date": "Sunday 13th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "55",
+        "homeTeamName": "Huddersfield Town",
+        "awayTeamNo": "1",
+        "awayTeamName": "Arsenal"
+      },
+      {
+        "id": "13987",
+        "date": "Sunday 13th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "11",
+        "homeTeamName": "Liverpool",
+        "awayTeamNo": "21",
+        "awayTeamName": "Brighton & Hove Albion"
+      },
+      {
+        "id": "13989",
+        "date": "Sunday 13th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "13",
+        "homeTeamName": "Manchester United",
+        "awayTeamNo": "41",
+        "awayTeamName": "Watford"
+      },
+      {
+        "id": "13988",
+        "date": "Sunday 13th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "15",
+        "homeTeamName": "Newcastle United",
+        "awayTeamNo": "7",
+        "awayTeamName": "Chelsea"
+      },
+      {
+        "id": "13990",
+        "date": "Sunday 13th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "18",
+        "homeTeamName": "Southampton",
+        "awayTeamNo": "12",
+        "awayTeamName": "Manchester City"
+      },
+      {
+        "id": "13991",
+        "date": "Sunday 13th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "90",
+        "homeTeamName": "Swansea City",
+        "awayTeamNo": "39",
+        "awayTeamName": "Stoke City"
+      },
+      {
+        "id": "13992",
+        "date": "Sunday 13th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "19",
+        "homeTeamName": "Tottenham Hotspur",
+        "awayTeamNo": "30",
+        "awayTeamName": "Leicester City"
+      },
+      {
+        "id": "13985",
+        "date": "Sunday 13th May 2018",
+        "time": "15:00:00",
+        "status": "Kick off 3pm",
+        "homeTeamNo": "42",
+        "homeTeamName": "West Ham United",
+        "awayTeamNo": "9",
+        "awayTeamName": "Everton"
+      }
+    ]
+  }
+}

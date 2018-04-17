@@ -24,6 +24,7 @@ public class TbeotsController {
 
     @RequestMapping("/")
     public String home(ModelMap model) throws IOException {
+        dataHelper.refreshCache();
         List<JsonLeaguePosition> leaguePositions = dataHelper.getLeaguePositions(position -> position.getCanWinLeague().equals("YES"));
         model.addAttribute("leaguePositions", leaguePositions);
         // ugh - fix this somehow

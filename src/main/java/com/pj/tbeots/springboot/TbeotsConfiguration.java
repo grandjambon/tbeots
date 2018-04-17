@@ -21,7 +21,7 @@ public class TbeotsConfiguration {
     @Bean
     @Scope
     public DataHelper getDataHelper() {
-        return new DataHelper(null);
+        return new DataHelper(getDataManager());
     }
 
 }

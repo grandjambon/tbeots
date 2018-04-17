@@ -3,7 +3,6 @@
 <#import "lib/utils.ftl" as u>
 
 <@u.page>
-
     <#function homeOrAway value>
       <#if value.name() == "home">
         <#return "(H)"/>
@@ -11,6 +10,15 @@
         <#return "(A)"/>
       </#if>
     </#function>
+
+    <#function fixtureText date fixtures>
+        <#if fixtures[date]??>
+            <#return fixtures[date]/>
+        <#else>
+            <#return ""/>
+        </#if>
+    </#function>
+
     <center>
         <table style="border-collapse: collapse; table-layout: fixed; font-family: monospace;" width=100%>
             <tr>
@@ -46,7 +54,18 @@
         </table>
 
         <br>
-        <table style="border-collapse: collapse; table-layout: fixed; font-family: monospace;" width=100%>
+
+        <!--table style="border-collapse: collapse; table-layout: fixed; font-family: monospace;" width=100%>
+            <#list dates as date>
+                <td align="center">${date}</td>
+                <#list leaguePositions as pos>
+                    <#assign fixtures=fixtures-$pos.name>
+                    <td align="center" style="border: 1px solid #ccccff; border-collapse:collapse; background-color: white"><font size="3">${fixtureText(pos.name, fixtures)}</font></td>
+                </#list>
+            </#list>
+        </table-->
+
+        <!--table style="border-collapse: collapse; table-layout: fixed; font-family: monospace;" width=100%>
             <#list fixtures as date,fixtures>
                 <tr>
                     <td align="center">${date}</td>
@@ -63,7 +82,7 @@
                     </#list>
                 </tr>
             </#list>
-        </table>
+        </table-->
 
     </center>
 </@u.page>

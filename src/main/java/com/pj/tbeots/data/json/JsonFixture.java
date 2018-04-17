@@ -1,10 +1,12 @@
 package com.pj.tbeots.data.json;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonRootName;
 import com.fasterxml.jackson.annotation.JsonSetter;
 import com.pj.tbeots.data.TeamNameMapper;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 @JsonRootName(value="match")
 public class JsonFixture {
 

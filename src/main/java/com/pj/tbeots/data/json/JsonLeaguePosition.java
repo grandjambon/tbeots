@@ -1,5 +1,6 @@
 package com.pj.tbeots.data.json;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonRootName;
 import com.fasterxml.jackson.annotation.JsonSetter;
@@ -8,6 +9,7 @@ import com.pj.tbeots.data.TeamNameMapper;
 import java.util.HashMap;
 import java.util.Map;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 @JsonRootName(value="team")
 public class JsonLeaguePosition {
 
@@ -20,7 +22,6 @@ public class JsonLeaguePosition {
         backgroundColorMap.put("Chelsea", "#0000e6");
         backgroundColorMap.put("Liverpool", "#ff3333");
         backgroundColorMap.put("Spurs", "#ffffff");
-
         foregroundColorMap.put("Chelsea", "#ffffff");
     }
 

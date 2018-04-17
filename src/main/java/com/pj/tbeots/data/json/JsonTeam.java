@@ -1,13 +1,12 @@
 package com.pj.tbeots.data.json;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonRootName;
 import com.fasterxml.jackson.annotation.JsonSetter;
 import com.pj.tbeots.data.TeamNameMapper;
 
-import java.util.HashMap;
-import java.util.Map;
-
+@JsonIgnoreProperties(ignoreUnknown = true)
 @JsonRootName(value="team")
 public class JsonTeam {
 

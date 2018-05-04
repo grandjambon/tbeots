@@ -43,7 +43,7 @@ public class DataManagerTest {
     public void testLeagueTable() throws IOException {
         List<JsonLeaguePosition> leaguePositions = manager.getLeaguePositions();
         assertNotNull(leaguePositions);
-        assertEquals(6, leaguePositions.size());
+        assertEquals(7, leaguePositions.size());
     }
 
     @Ignore

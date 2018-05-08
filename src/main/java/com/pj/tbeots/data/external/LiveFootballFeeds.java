@@ -11,7 +11,7 @@ import java.net.URL;
 
 public class LiveFootballFeeds implements FootballFeeds {
 
-    public static final String TOP_6_TABLE = "https://www.footballwebpages.co.uk/league-table.json?comp=1&start=1&range=7&show=pos,p,pts";
+    public static final String TOP_6_TABLE = "https://www.footballwebpages.co.uk/league-table.json?comp=1&start=15&range=6&show=pos,p,pts";
     public static final String PL_TEAMS_JSON_URL = "https://www.footballwebpages.co.uk/teams.json?comp=1";
  //   public static final String FIXTURES_URL = "https://www.footballwebpages.co.uk/fixtures-results.json?comp=1&results=0&team=%s";
     public static final String FIXTURES_URL = "https://www.footballwebpages.co.uk/fixtures-results.json?results=0&team=%s";

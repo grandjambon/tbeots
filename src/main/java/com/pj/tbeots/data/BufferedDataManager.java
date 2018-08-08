@@ -3,6 +3,7 @@ package com.pj.tbeots.data;
 import com.pj.tbeots.data.json.JsonLeaguePosition;
 import com.pj.tbeots.data.json.JsonTeam;
 import com.pj.tbeots.data.model.Fixture;
+import com.pj.tbeots.data.model.FixtureDate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -27,7 +28,7 @@ public class BufferedDataManager implements DataManager {
     private String cacheToken;
     private Map<String, JsonTeam> teams;
     private List<JsonLeaguePosition> leaguePositions;
-    private Map<String, List<Fixture>> fixtures;
+    private Map<FixtureDate, List<Fixture>> fixtures;
 
     public BufferedDataManager(DataManager dataManager) {
         this.dataManager = dataManager;
@@ -54,7 +55,7 @@ public class BufferedDataManager implements DataManager {
     }
 
     @Override
-    public synchronized Map<String, List<Fixture>> getFixtures() throws IOException {
+    public synchronized Map<FixtureDate, List<Fixture>> getFixtures() throws IOException {
         return fixtures;
     }
 

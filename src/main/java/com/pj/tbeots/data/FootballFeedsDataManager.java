@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.pj.tbeots.data.json.*;
 import com.pj.tbeots.data.model.Fixture;
+import com.pj.tbeots.data.model.FixtureDate;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -70,13 +71,13 @@ public class FootballFeedsDataManager implements DataManager {
     }
 
     @Override
-    public Map<String, List<Fixture>> getFixtures() throws IOException {
+    public Map<FixtureDate, List<Fixture>> getFixtures() throws IOException {
         List<JsonLeaguePosition> leagueTable = getLeaguePositions();
         Map<String, JsonTeam> teamToId = getTeams();
 
         Map<String, Map<String, Fixture>> teamNameToFixtureMap = new TreeMap<>();
 
-        Collection<String> validDates = new TreeSet<>();
+        Collection<FixtureDate> validDates = new TreeSet<>(new DateComparator());
 
         for (JsonLeaguePosition position : leagueTable) {
             int id = teamToId.get(position.getName()).getId();
@@ -91,26 +92,25 @@ public class FootballFeedsDataManager implements DataManager {
                 Fixture.HomeOrAway homeOrAway = homeFixture ? Fixture.HomeOrAway.home : Fixture.HomeOrAway.away;
                 String dateString = convertDateToCorrectFormat(jsonFixture);
 
-
-                Fixture fixture = new Fixture(dateString, jsonFixture.getTime(), opponent, jsonFixture.getCompetition(), homeOrAway);
+                Fixture fixture = new Fixture(jsonFixture.getDate(), dateString, jsonFixture.getTime(), opponent, jsonFixture.getCompetition(), homeOrAway);
 
                 fixtures.put(dateString, fixture);
-                validDates.add(dateString);
+                validDates.add(new FixtureDate(dateString, jsonFixture.getDate()));
             }
 
             teamNameToFixtureMap.put(position.getName(), fixtures);
         }
 
-        Map<String, List<Fixture>> dateToFixtures = new TreeMap<>(new DateComparator());
+        Map<FixtureDate, List<Fixture>> dateToFixtures = new TreeMap<>(new DateComparator());
 
-        for (String date : validDates) {
+        for (FixtureDate fixtureDate : validDates) {
             List<Fixture> matches = new ArrayList<>();
             for (JsonLeaguePosition position : leagueTable) {
                 Map<String, Fixture> dateToFixturesMap = teamNameToFixtureMap.get(position.getName());
-                Fixture fixture = dateToFixturesMap.get(date);
+                Fixture fixture = dateToFixturesMap.get(fixtureDate.getShortDate());
                 matches.add(fixture);
             }
-            dateToFixtures.put(date, matches);
+            dateToFixtures.put(fixtureDate, matches);
         }
         return dateToFixtures;
     }
@@ -131,25 +131,23 @@ public class FootballFeedsDataManager implements DataManager {
         return outputFormatter.format(date);
     }
 
-    private static class DateComparator implements Comparator<String> {
+    private static class DateComparator implements Comparator<FixtureDate> {
         @Override
-        public int compare(String o1, String o2) {
-            Pattern pattern = Pattern.compile("[A-Za-z]+ ([0-9]+)/([0-9]+)");
-            Matcher matcher1 = pattern.matcher(o1);
-            matcher1.find();
-            String day1 = matcher1.group(1);
-            String month1 = matcher1.group(2);
-
-
-            Matcher matcher2 = pattern.matcher(o2);
-            matcher2.find();
-            String day2 = matcher2.group(1);
-            String month2 = matcher2.group(2);
-
-            if (month1.equals(month2))
-                return day1.compareTo(day2);
-
-            return month1.compareTo(month2);
+        public int compare(FixtureDate o1, FixtureDate o2) {
+            LocalDate date1 = LocalDate.parse(preformat(o1.getLongDate()), inputFormatter);
+            LocalDate date2 = LocalDate.parse(preformat(o2.getLongDate()), inputFormatter);
+            return date1.compareTo(date2);
         }
+    }
+
+    private static String preformat(String longDate) {
+        Pattern pattern = Pattern.compile("[A-Za-z]+ ([0-9]+)[a-z]{2} ([A-Za-z]+) ([0-9]+)");
+        Matcher matcher = pattern.matcher(longDate);
+        matcher.find();
+        String dayOfMonth = matcher.group(1);
+        String monthAsWord = matcher.group(2);
+        String year = matcher.group(3);
+
+        return dayOfMonth + " " + monthAsWord + " " + year;
     }
 }

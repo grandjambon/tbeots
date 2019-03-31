@@ -7,8 +7,10 @@
     <#function homeOrAway value>
       <#if value.name() == "home">
         <#return "(H)"/>
-      <#else>
+      <#elseif value.name() == "away">
         <#return "(A)"/>
+      <#else>
+        <#return "(N)"/>
       </#if>
     </#function>
     <center>

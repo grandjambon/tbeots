@@ -13,8 +13,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
+import java.util.Collection;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeSet;
 
 import static com.pj.tbeots.data.BufferedDataManager.getLiveToken;
 import static org.hamcrest.core.Is.is;
@@ -25,10 +27,17 @@ public class DataManagerTest {
     private static final Logger logger = LoggerFactory.getLogger(DataManagerTest.class);
 
     private DataManager manager;
+    private Collection<String> neutralRounds;
 
     @Before
     public void setup() throws IOException {
-        manager = new BufferedDataManager(new FootballFeedsDataManager(new LiveFootballFeeds()));
+        neutralRounds = new TreeSet<>();
+        neutralRounds.add("Carabao Cup"+"-"+"Final");
+        neutralRounds.add("Emirates FA Cup"+"-"+"Semi Final");
+        neutralRounds.add("Emirates FA Cup"+"-"+"Final");
+        neutralRounds.add("UEFA Champions League"+"-"+"Final");
+
+        manager = new BufferedDataManager(new FootballFeedsDataManager(new LiveFootballFeeds(), neutralRounds));
         String token = getLiveToken();
         manager.refreshCache(token);
     }
@@ -50,7 +59,7 @@ public class DataManagerTest {
     @Ignore
     @Test
     public void testFixtures() throws IOException {
-        FootballFeedsDataManager dataManager = new FootballFeedsDataManager(new LiveFootballFeeds());
+        FootballFeedsDataManager dataManager = new FootballFeedsDataManager(new LiveFootballFeeds(), neutralRounds);
 
         int arsenalId = dataManager.getTeams().get("Arsenal").getId();
 

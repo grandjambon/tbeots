@@ -36,8 +36,6 @@ public class JsonFixture {
     @JsonProperty(value="awayTeamAggregateScore")
     private int awayTeamAggScore;
 
-
-
     public int getId() {
         return id;
     }
@@ -82,5 +80,9 @@ public class JsonFixture {
     @JsonSetter(value="awayTeamName")
     public void setAwayTeam(String awayTeam) {
         this.awayTeam = TeamNameMapper.mapTeamName(awayTeam);
+    }
+
+    public String getRound() {
+        return round;
     }
 }

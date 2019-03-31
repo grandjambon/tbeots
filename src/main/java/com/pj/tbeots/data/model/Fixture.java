@@ -3,7 +3,7 @@ package com.pj.tbeots.data.model;
 public class Fixture {
 
     public static final Fixture BLANK = new Fixture(null, null, "", "", "", HomeOrAway.home);
-    public enum HomeOrAway {home, away}
+    public enum HomeOrAway {home, away, neutral}
 
     // this is easy to sort across years - "d MMMM yyyy"
     private final String longDate;

@@ -19,9 +19,11 @@ public class FootballFeedsDataManager implements DataManager {
     private static final DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("EEE dd/MM");
 
     private final FootballFeeds footballFeeds;
+    private final Collection<String> neutralRounds;
 
-    public FootballFeedsDataManager(FootballFeeds footballFeeds) {
+    public FootballFeedsDataManager(FootballFeeds footballFeeds, Collection<String> neutralRounds) {
         this.footballFeeds = footballFeeds;
+        this.neutralRounds = neutralRounds;
     }
 
     @Override
@@ -89,7 +91,8 @@ public class FootballFeedsDataManager implements DataManager {
 
                 String opponent = homeFixture ? jsonFixture.getAwayTeam() : jsonFixture.getHomeTeam();
 
-                Fixture.HomeOrAway homeOrAway = homeFixture ? Fixture.HomeOrAway.home : Fixture.HomeOrAway.away;
+                Fixture.HomeOrAway homeOrAway = getHomeOrAwayOrNeutral(id, jsonFixture);
+
                 String dateString = convertDateToCorrectFormat(jsonFixture);
 
                 Fixture fixture = new Fixture(jsonFixture.getDate(), dateString, jsonFixture.getTime(), opponent, jsonFixture.getCompetition(), homeOrAway);
@@ -113,6 +116,17 @@ public class FootballFeedsDataManager implements DataManager {
             dateToFixtures.put(fixtureDate, matches);
         }
         return dateToFixtures;
+    }
+
+    private Fixture.HomeOrAway getHomeOrAwayOrNeutral(int id, JsonFixture jsonFixture) {
+        String competition = jsonFixture.getCompetition();
+        String round = jsonFixture.getRound();
+
+        if (neutralRounds.contains(competition+"-"+round)) {
+            return Fixture.HomeOrAway.neutral;
+        }
+
+        return jsonFixture.getHomeTeamId() == id ? Fixture.HomeOrAway.home : Fixture.HomeOrAway.away;
     }
 
     private String convertDateToCorrectFormat(JsonFixture jsonFixture) {
@@ -150,4 +164,5 @@ public class FootballFeedsDataManager implements DataManager {
 
         return dayOfMonth + " " + monthAsWord + " " + year;
     }
+
 }

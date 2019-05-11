@@ -27,6 +27,7 @@ public class TbeotsConfiguration {
         neutralRounds.add("Emirates FA Cup"+"-"+"Semi Final");
         neutralRounds.add("Emirates FA Cup"+"-"+"Final");
         neutralRounds.add("UEFA Champions League"+"-"+"Final");
+        neutralRounds.add("Europa League"+"-"+"Final");
         return neutralRounds;
     }
 }

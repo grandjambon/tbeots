@@ -95,10 +95,13 @@ public class FootballFeedsDataManager implements DataManager {
 
                 String dateString = convertDateToCorrectFormat(jsonFixture);
 
-                Fixture fixture = new Fixture(jsonFixture.getDate(), dateString, jsonFixture.getTime(), opponent, jsonFixture.getCompetition(), homeOrAway);
+                LocalDate dateOfFixture = convertToDate(jsonFixture);
+                if (!dateOfFixture.isBefore(LocalDate.now())) {
+                    Fixture fixture = new Fixture(jsonFixture.getDate(), dateString, jsonFixture.getTime(), opponent, jsonFixture.getCompetition(), homeOrAway);
 
-                fixtures.put(dateString, fixture);
-                validDates.add(new FixtureDate(dateString, jsonFixture.getDate()));
+                    fixtures.put(dateString, fixture);
+                    validDates.add(new FixtureDate(dateString, jsonFixture.getDate()));
+                }
             }
 
             teamNameToFixtureMap.put(position.getName(), fixtures);
@@ -130,6 +133,11 @@ public class FootballFeedsDataManager implements DataManager {
     }
 
     private String convertDateToCorrectFormat(JsonFixture jsonFixture) {
+        LocalDate date = convertToDate(jsonFixture);
+        return outputFormatter.format(date);
+    }
+
+    private LocalDate convertToDate(JsonFixture jsonFixture) {
         // Tuesday 30th January 2018
         String d = jsonFixture.getDate();
         Pattern pattern = Pattern.compile("[A-Za-z]+ ([0-9]+)[a-z]{2} ([A-Za-z]+) ([0-9]+)");
@@ -141,8 +149,7 @@ public class FootballFeedsDataManager implements DataManager {
 
         String fullDate = dayOfMonth + " " + monthAsWord + " " + year;
 
-        LocalDate date = LocalDate.parse(fullDate, inputFormatter);
-        return outputFormatter.format(date);
+        return LocalDate.parse(fullDate, inputFormatter);
     }
 
     private static class DateComparator implements Comparator<FixtureDate> {

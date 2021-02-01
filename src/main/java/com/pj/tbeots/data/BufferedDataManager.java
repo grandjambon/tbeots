@@ -20,7 +20,7 @@ public class BufferedDataManager implements DataManager {
 
     private static final Logger logger = LoggerFactory.getLogger(BufferedDataManager.class);
 
-    private static final DateTimeFormatter tokenFormatter = DateTimeFormatter.ofPattern("yyyyMMdd-HHmm");
+    private static final DateTimeFormatter tokenFormatter = DateTimeFormatter.ofPattern("yyyyMMdd-HH");
     
     private final DataManager dataManager;
 

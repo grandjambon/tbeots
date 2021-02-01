@@ -18,7 +18,7 @@
             <tr>
                 <td align="center"></td>
                 <#list leaguePositions as pos>
-                    <td align="center"><img src="badges/${pos.name}.svg" alt="${pos.name}"></td>
+                    <td align="center"><img src="badges/${pos.team.name}.svg" alt="${pos.team.name}"></td>
                 </#list>
             </tr>
             <tr>
@@ -51,7 +51,7 @@
         <table style="border-collapse: collapse; table-layout: fixed; font-family: monospace;" width=100%>
             <#list fixtures as date,fixtures>
                 <tr>
-                    <td align="center">${date.shortDate}</td>
+                    <td align="center">${date}</td>
                     <#list fixtures as fixture>
                         <#if fixture??>
                             <#if fixture.competition == "Premier League">

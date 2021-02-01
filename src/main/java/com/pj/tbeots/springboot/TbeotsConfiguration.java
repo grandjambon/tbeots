@@ -2,11 +2,9 @@ package com.pj.tbeots.springboot;
 
 import com.pj.tbeots.data.BufferedDataManager;
 import com.pj.tbeots.data.DataManager;
-import com.pj.tbeots.data.FootballFeedsDataManager;
-import com.pj.tbeots.data.external.LiveFootballFeeds;
+import com.pj.tbeots.data.RapidApiFWPDataManager;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Scope;
 
 import java.util.Collection;
 import java.util.TreeSet;
@@ -14,10 +12,10 @@ import java.util.TreeSet;
 @SuppressWarnings("unused")
 @Configuration
 public class TbeotsConfiguration {
+
     @Bean
-    @Scope("singleton")
-    public DataManager getDataManager(Collection<String> neutralRounds) {
-        return new BufferedDataManager(new FootballFeedsDataManager(new LiveFootballFeeds(), neutralRounds));
+    public DataManager getDataFWPDataManager(Collection<String> neutralRounds) {
+        return new BufferedDataManager(new RapidApiFWPDataManager(neutralRounds));
     }
 
     @Bean

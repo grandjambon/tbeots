@@ -1,8 +1,8 @@
 package com.pj.tbeots.springboot;
 
 import com.pj.tbeots.data.DataManager;
-import com.pj.tbeots.data.FootballFeedsDataManager;
-import com.pj.tbeots.data.json.JsonLeaguePosition;
+import com.pj.tbeots.data.RapidApiFWPDataManager;
+import com.pj.tbeots.data.model.LeaguePosition;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,7 +31,7 @@ public class TbeotsController {
         logger.info("requesting with cacheToken = {} ", cacheToken);
 
         dataManager.refreshCache(cacheToken);
-        List<JsonLeaguePosition> leaguePositions = dataManager.getLeaguePositions();
+        List<LeaguePosition> leaguePositions = dataManager.getLeaguePositions();
         model.addAttribute("leaguePositions", leaguePositions);
         model.addAttribute("fixtures", dataManager.getFixtures());
         return "home";

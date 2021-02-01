@@ -1,9 +1,8 @@
 package com.pj.tbeots.data;
 
-import com.pj.tbeots.data.json.JsonLeaguePosition;
-import com.pj.tbeots.data.json.JsonTeam;
 import com.pj.tbeots.data.model.Fixture;
-import com.pj.tbeots.data.model.FixtureDate;
+import com.pj.tbeots.data.model.LeaguePosition;
+import com.pj.tbeots.data.model.Team;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -26,9 +25,9 @@ public class BufferedDataManager implements DataManager {
     private final DataManager dataManager;
 
     private String cacheToken;
-    private Map<String, JsonTeam> teams;
-    private List<JsonLeaguePosition> leaguePositions;
-    private Map<FixtureDate, List<Fixture>> fixtures;
+    private Map<String, Team> teams;
+    private List<LeaguePosition> leaguePositions;
+    private Map<String, List<Fixture>> fixtures;
 
     public BufferedDataManager(DataManager dataManager) {
         this.dataManager = dataManager;
@@ -45,17 +44,17 @@ public class BufferedDataManager implements DataManager {
     }
 
     @Override
-    public synchronized Map<String, JsonTeam> getTeams() throws IOException {
+    public synchronized Map<String, Team> getTeams() throws IOException {
         return teams;
     }
 
     @Override
-    public synchronized List<JsonLeaguePosition> getLeaguePositions() throws IOException {
+    public synchronized List<LeaguePosition> getLeaguePositions() throws IOException {
         return leaguePositions;
     }
 
     @Override
-    public synchronized Map<FixtureDate, List<Fixture>> getFixtures() throws IOException {
+    public synchronized Map<String, List<Fixture>> getFixtures() throws IOException {
         return fixtures;
     }
 

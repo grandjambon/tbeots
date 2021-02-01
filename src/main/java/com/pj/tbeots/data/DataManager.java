@@ -1,9 +1,8 @@
 package com.pj.tbeots.data;
 
-import com.pj.tbeots.data.json.JsonLeaguePosition;
-import com.pj.tbeots.data.json.JsonTeam;
 import com.pj.tbeots.data.model.Fixture;
-import com.pj.tbeots.data.model.FixtureDate;
+import com.pj.tbeots.data.model.LeaguePosition;
+import com.pj.tbeots.data.model.Team;
 
 import java.io.IOException;
 import java.util.List;
@@ -13,9 +12,9 @@ public interface DataManager {
 
     void refreshCache(String cacheToken) throws IOException;
 
-    Map<String, JsonTeam> getTeams() throws IOException;
+    Map<String, Team> getTeams() throws IOException;
 
-    List<JsonLeaguePosition> getLeaguePositions() throws IOException;
+    List<LeaguePosition> getLeaguePositions() throws IOException;
 
-    Map<FixtureDate, List<Fixture>> getFixtures() throws IOException;
+    Map<String, List<Fixture>> getFixtures() throws IOException;
 }

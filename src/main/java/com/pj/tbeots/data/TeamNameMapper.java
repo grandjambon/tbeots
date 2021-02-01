@@ -2,6 +2,7 @@ package com.pj.tbeots.data;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Properties;
 
 public class TeamNameMapper {
@@ -11,7 +12,7 @@ public class TeamNameMapper {
     static {
         InputStream input = TeamNameMapper.class.getResourceAsStream("/pl-team-names.properties");
         try {
-            props.load(input);
+            props.load(new InputStreamReader(input, "UTF-8"));
         } catch (IOException e) {
             e.printStackTrace();
         }

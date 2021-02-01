@@ -1,19 +1,27 @@
-package com.pj.tbeots.data.json;
+package com.pj.tbeots.data.json.rapidapifwp;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonRootName;
 import com.fasterxml.jackson.annotation.JsonSetter;
 import com.pj.tbeots.data.TeamNameMapper;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
-@JsonRootName(value="team")
-public class JsonTeam {
+import java.util.Map;
 
-    @JsonProperty(value="id")
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class JsonTeam {
+    @JsonProperty("id")
     private int id;
 
     private String name;
+
+    @JsonProperty("total-points")
+    private int points;
+
+    @JsonProperty("position")
+    private int position;
+
+    @JsonProperty("all-matches")
+    private Map<String, Integer> allMatches;
 
     public int getId() {
         return id;
@@ -23,10 +31,20 @@ public class JsonTeam {
         return name;
     }
 
-
     @JsonSetter("name")
     public void setName(String name) {
         this.name = TeamNameMapper.mapTeamName(name);
     }
 
+    public int getPoints() {
+        return points;
+    }
+
+    public int getPosition() {
+        return position;
+    }
+
+    public int getPlayed() {
+        return allMatches.get("played");
+    }
 }

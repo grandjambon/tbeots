@@ -1,5 +1,6 @@
 package com.pj.tbeots.data.json.rapidapifwp;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonSetter;
 
@@ -8,6 +9,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Map;
 
 // from fixture-results in Fixtures/Results
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class JsonMatch {
 
     public enum Status { RESULT, LIVE, FIXTURE;}

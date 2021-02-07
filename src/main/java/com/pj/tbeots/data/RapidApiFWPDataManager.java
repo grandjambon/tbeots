@@ -16,6 +16,7 @@ import okhttp3.ResponseBody;
 
 import java.io.IOException;
 import java.io.Reader;
+import java.time.LocalDateTime;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -32,7 +33,7 @@ public class RapidApiFWPDataManager implements DataManager {
         this.neutralRounds = neutralRounds;
     }
 
-    public void refreshCache(String cacheToken) throws IOException {
+    public void refreshCache(LocalDateTime now) throws IOException {
     }
 
     public Map<String, Team> getTeams() throws IOException {

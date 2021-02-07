@@ -5,12 +5,13 @@ import com.pj.tbeots.data.model.LeaguePosition;
 import com.pj.tbeots.data.model.Team;
 
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 
 public interface DataManager {
 
-    void refreshCache(String cacheToken) throws IOException;
+    void refreshCache(LocalDateTime now) throws IOException;
 
     Map<String, Team> getTeams() throws IOException;
 

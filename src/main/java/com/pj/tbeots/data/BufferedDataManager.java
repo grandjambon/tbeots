@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 import java.util.List;
 import java.util.Map;
 
@@ -20,27 +21,50 @@ public class BufferedDataManager implements DataManager {
 
     private static final Logger logger = LoggerFactory.getLogger(BufferedDataManager.class);
 
-    private static final DateTimeFormatter tokenFormatter = DateTimeFormatter.ofPattern("yyyyMMdd-HH");
-    
+    private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyyMMdd-HH:mm:ss");
+
+    private static final int REFRESH_BUFFER = 15;
+
     private final DataManager dataManager;
 
-    private String cacheToken;
+    private LocalDateTime lastRefresh;
     private Map<String, Team> teams;
     private List<LeaguePosition> leaguePositions;
     private Map<String, List<Fixture>> fixtures;
 
     public BufferedDataManager(DataManager dataManager) {
-        this.dataManager = dataManager;
+        this(dataManager, null);
     }
 
-    public synchronized void refreshCache(String cacheToken) throws IOException {
-        if (this.cacheToken == null || !this.cacheToken.equals(cacheToken)) {
-            logger.info("token received = {} - our token = {} so rebuilding cache", cacheToken, this.cacheToken);
+    // for testing
+    BufferedDataManager(DataManager dataManager, LocalDateTime lastRefresh) {
+        this.dataManager = dataManager;
+        this.lastRefresh = lastRefresh;
+    }
+
+    public synchronized void refreshCache(LocalDateTime now) throws IOException {
+        if (lastRefresh == null || (isRefreshPeriod(now) && now.isAfter(lastRefresh.plus(REFRESH_BUFFER, ChronoUnit.MINUTES)))) {
+            logger.info("lastRefresh = {} - currently = {} so rebuilding cache", lastRefresh == null ? null : lastRefresh.format(DATE_TIME_FORMATTER), now.format(DATE_TIME_FORMATTER));
             this.teams = dataManager.getTeams();
             this.leaguePositions = dataManager.getLeaguePositions();
             this.fixtures = dataManager.getFixtures();
-            this.cacheToken = cacheToken;
+            this.lastRefresh = now;
         }
+    }
+
+    private boolean isRefreshPeriod(LocalDateTime now) {
+        switch(now.getDayOfWeek()) {
+            case MONDAY:
+            case TUESDAY:
+            case WEDNESDAY:
+            case THURSDAY:
+            case FRIDAY:
+                return now.getHour() >= 18 && now.getHour() < 22;
+            case SATURDAY:
+            case SUNDAY:
+                return now.getHour() >= 12 && now.getHour() < 22;
+        }
+        return false;
     }
 
     @Override
@@ -58,7 +82,7 @@ public class BufferedDataManager implements DataManager {
         return fixtures;
     }
 
-    public static String getLiveToken() {
-        return LocalDateTime.now(ZoneId.of("UTC")).format(tokenFormatter);
+    public static LocalDateTime getCurrentLocalDateTime() {
+        return LocalDateTime.now(ZoneId.of("Europe/London"));
     }
 }

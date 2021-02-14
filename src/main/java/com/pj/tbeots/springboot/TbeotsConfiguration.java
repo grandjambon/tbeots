@@ -3,6 +3,7 @@ package com.pj.tbeots.springboot;
 import com.pj.tbeots.data.BufferedDataManager;
 import com.pj.tbeots.data.DataManager;
 import com.pj.tbeots.data.RapidApiFWPDataManager;
+import com.pj.tbeots.data.remote.RapidApiDataConnector;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -14,8 +15,13 @@ import java.util.TreeSet;
 public class TbeotsConfiguration {
 
     @Bean
-    public DataManager getDataFWPDataManager(Collection<String> neutralRounds) {
-        return new BufferedDataManager(new RapidApiFWPDataManager(neutralRounds));
+    public RapidApiDataConnector rapidApiDataConnector() {
+        return new RapidApiDataConnector();
+    }
+
+    @Bean
+    public DataManager getDataFWPDataManager(RapidApiDataConnector rapidApiDataConnector, Collection<String> neutralRounds) {
+        return new BufferedDataManager(new RapidApiFWPDataManager(rapidApiDataConnector, neutralRounds));
     }
 
     @Bean

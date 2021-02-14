@@ -1,0 +1,1404 @@
+{
+  "fixtures-results": {
+    "team": {
+      "name": "Leicester City",
+      "id": 30
+    },
+    "matches": [
+      {
+        "date": "2020-09-13",
+        "venue": "The Hawthorns",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 359914,
+        "time": "14:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "West Bromwich Albion",
+          "id": 20
+        },
+        "referee": "Anthony Taylor",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-20",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 362060,
+        "time": "19:00",
+        "home-team": {
+          "score": 4,
+          "half-time-score": 1,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Lee Mason",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Burnley",
+          "id": 22
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-23",
+        "venue": "King Power Stadium",
+        "round": {
+          "name": "Third Round",
+          "id": 29
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 364002,
+        "time": "19:45",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "P. Bankes",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 0,
+          "name": "Arsenal",
+          "id": 1
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-27",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 359924,
+        "time": "16:30",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "Michael Oliver",
+        "away-team": {
+          "score": 5,
+          "half-time-score": 1,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-04",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 364209,
+        "time": "12:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Andy Madley",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 2,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-18",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 365428,
+        "time": "19:15",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Jonathan Moss",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Aston Villa",
+          "id": 2
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-22",
+        "venue": "King Power Stadium",
+        "round": {
+          "name": "Group G",
+          "id": 19
+        },
+        "competition": {
+          "name": "Europa League",
+          "id": 25
+        },
+        "id": 365901,
+        "time": "20:00",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 2,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Stephanie Frappart",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "FC Zorya Luhansk",
+          "id": 1813
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-25",
+        "venue": "Emirates Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 365431,
+        "time": "19:15",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Arsenal",
+          "id": 1
+        },
+        "referee": "Craig Pawson",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-29",
+        "venue": "Olympiako Stadio Spyros Louis",
+        "round": {
+          "name": "Group G",
+          "id": 19
+        },
+        "competition": {
+          "name": "Europa League",
+          "id": 25
+        },
+        "id": 366042,
+        "time": "17:55",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "AEK FC",
+          "id": 574
+        },
+        "referee": "Harald Lechner",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 2,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-02",
+        "venue": "Elland Road",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 364759,
+        "time": "20:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Leeds United",
+          "id": 29
+        },
+        "referee": "Andre Marriner",
+        "away-team": {
+          "score": 4,
+          "half-time-score": 2,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-05",
+        "venue": "King Power Stadium",
+        "round": {
+          "name": "Group G",
+          "id": 19
+        },
+        "competition": {
+          "name": "Europa League",
+          "id": 25
+        },
+        "id": 366136,
+        "time": "20:00",
+        "home-team": {
+          "score": 4,
+          "half-time-score": 1,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Bas Nijhuis",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Sporting Braga",
+          "id": 489
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-08",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 366377,
+        "time": "14:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Anthony Taylor",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Wolverhampton Wanderers",
+          "id": 44
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-22",
+        "venue": "Anfield",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 366926,
+        "time": "19:15",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 2,
+          "name": "Liverpool",
+          "id": 11
+        },
+        "referee": "Chris Kavanagh",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-26",
+        "venue": "Estádio Municipal de Braga",
+        "round": {
+          "name": "Group G",
+          "id": 19
+        },
+        "competition": {
+          "name": "Europa League",
+          "id": 25
+        },
+        "id": 366148,
+        "time": "17:55",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 2,
+          "name": "Sporting Braga",
+          "id": 489
+        },
+        "referee": "Daniele Orsato",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 1,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-30",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367858,
+        "time": "17:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Simon Hooper",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 2,
+          "name": "Fulham",
+          "id": 10
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-03",
+        "venue": "Slavutych-Arena",
+        "round": {
+          "name": "Group G",
+          "id": 19
+        },
+        "competition": {
+          "name": "Europa League",
+          "id": 25
+        },
+        "id": 366170,
+        "time": "17:55",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "FC Zorya Luhansk",
+          "id": 1813
+        },
+        "referee": "E. Eskås",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-06",
+        "venue": "Bramall Lane",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367819,
+        "time": "14:15",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Sheffield United",
+          "id": 38
+        },
+        "referee": "Stuart Attwell",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-10",
+        "venue": "King Power Stadium",
+        "round": {
+          "name": "Group G",
+          "id": 19
+        },
+        "competition": {
+          "name": "Europa League",
+          "id": 25
+        },
+        "id": 366206,
+        "time": "20:00",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 2,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Lawrence Visser",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "AEK FC",
+          "id": 574
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-13",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 359927,
+        "time": "19:15",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 3,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Martin Atkinson",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Brighton & Hove Albion",
+          "id": 21
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-16",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367830,
+        "time": "18:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Lee Mason",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-20",
+        "venue": "Tottenham Hotspur Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367836,
+        "time": "14:15",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Tottenham Hotspur",
+          "id": 19
+        },
+        "referee": "Craig Pawson",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-26",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352392,
+        "time": "12:30",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Mike Dean",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-28",
+        "venue": "Selhurst Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352401,
+        "time": "15:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Crystal Palace",
+          "id": 8
+        },
+        "referee": "Graham Scott",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-03",
+        "venue": "St. James' Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 368728,
+        "time": "14:15",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Newcastle United",
+          "id": 15
+        },
+        "referee": "Robert Jones",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-09",
+        "venue": "bet365 Stadium",
+        "round": {
+          "name": "Third Round",
+          "id": 29
+        },
+        "competition": {
+          "name": "Emirates FA Cup",
+          "id": 21
+        },
+        "id": 367965,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Stoke City",
+          "id": 39
+        },
+        "referee": "Tony Harrington",
+        "away-team": {
+          "score": 4,
+          "half-time-score": 1,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-16",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352432,
+        "time": "20:00",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Stuart Attwell",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Southampton",
+          "id": 18
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-19",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 368739,
+        "time": "20:15",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 2,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Craig Pawson",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Chelsea",
+          "id": 7
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-24",
+        "venue": "Brentford Community Stadium",
+        "round": {
+          "name": "Fourth Round",
+          "id": 31
+        },
+        "competition": {
+          "name": "Emirates FA Cup",
+          "id": 21
+        },
+        "id": 370712,
+        "time": "14:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Brentford",
+          "id": 49
+        },
+        "referee": "Michael Oliver",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-27",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 368747,
+        "time": "20:15",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Mike Dean",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-31",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 368751,
+        "time": "14:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Chris Kavanagh",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 1,
+          "name": "Leeds United",
+          "id": 29
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-02-03",
+        "venue": "Craven Cottage",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 370871,
+        "time": "18:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Fulham",
+          "id": 10
+        },
+        "referee": "Robert Jones",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 2,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-02-07",
+        "venue": "Molineux Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 370875,
+        "time": "14:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Wolverhampton Wanderers",
+          "id": 44
+        },
+        "referee": "Martin Atkinson",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-02-10",
+        "venue": "King Power Stadium",
+        "round": {
+          "name": "Fifth Round",
+          "id": 33
+        },
+        "competition": {
+          "name": "Emirates FA Cup",
+          "id": 21
+        },
+        "id": 371017,
+        "time": "19:30",
+        "home-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Brighton & Hove Albion",
+          "id": 21
+        },
+        "attendance": 0,
+        "status": {
+          "short": "7.30pm",
+          "full": "Kick off 7.30pm"
+        }
+      },
+      {
+        "date": "2021-02-13",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352484,
+        "time": "12:30",
+        "home-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Liverpool",
+          "id": 11
+        },
+        "attendance": 0,
+        "status": {
+          "short": "12.30pm",
+          "full": "Kick off 12.30pm"
+        }
+      },
+      {
+        "date": "2021-02-18",
+        "venue": "Sinobo Stadium",
+        "round": {
+          "name": "Round of 32",
+          "id": 49
+        },
+        "competition": {
+          "name": "Europa League",
+          "id": 25
+        },
+        "id": 368602,
+        "time": "17:55",
+        "home-team": {
+          "score": 0,
+          "name": "Slavia Prague",
+          "id": 590
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "5.55pm",
+          "full": "Kick off 5.55pm"
+        }
+      },
+      {
+        "date": "2021-02-21",
+        "venue": "Villa Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 370880,
+        "time": "14:00",
+        "home-team": {
+          "score": 0,
+          "name": "Aston Villa",
+          "id": 2
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "2pm",
+          "full": "Kick off 2pm"
+        }
+      },
+      {
+        "date": "2021-02-25",
+        "venue": "King Power Stadium",
+        "round": {
+          "name": "Round of 32",
+          "id": 49
+        },
+        "competition": {
+          "name": "Europa League",
+          "id": 25
+        },
+        "id": 368623,
+        "time": "20:00",
+        "home-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Slavia Prague",
+          "id": 590
+        },
+        "attendance": 0,
+        "status": {
+          "short": "8pm",
+          "full": "Kick off 8pm"
+        }
+      },
+      {
+        "date": "2021-02-28",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 371104,
+        "time": "12:00",
+        "home-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Arsenal",
+          "id": 1
+        },
+        "attendance": 0,
+        "status": {
+          "short": "12pm",
+          "full": "Kick off 12pm"
+        }
+      },
+      {
+        "date": "2021-03-06",
+        "venue": "The American Express Community Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352510,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Brighton & Hove Albion",
+          "id": 21
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-03-13",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352524,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Sheffield United",
+          "id": 38
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-03-20",
+        "venue": "Turf Moor",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352530,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Burnley",
+          "id": 22
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-03",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352544,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-10",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352558,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-17",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352564,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "away-team": {
+          "score": 0,
+          "name": "West Bromwich Albion",
+          "id": 20
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-24",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352573,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Crystal Palace",
+          "id": 8
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-01",
+        "venue": "St. Mary's Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352586,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Southampton",
+          "id": 18
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-08",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352593,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Newcastle United",
+          "id": 15
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-11",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352602,
+        "time": "20:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "8pm",
+          "full": "Kick off 8pm"
+        }
+      },
+      {
+        "date": "2021-05-15",
+        "venue": "Stamford Bridge",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352611,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Chelsea",
+          "id": 7
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-23",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352623,
+        "time": "16:00",
+        "home-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Tottenham Hotspur",
+          "id": 19
+        },
+        "attendance": 0,
+        "status": {
+          "short": "4pm",
+          "full": "Kick off 4pm"
+        }
+      }
+    ]
+  }
+}

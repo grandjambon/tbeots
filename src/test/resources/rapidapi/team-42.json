@@ -1,0 +1,1222 @@
+{
+  "fixtures-results": {
+    "team": {
+      "name": "West Ham United",
+      "id": 42
+    },
+    "matches": [
+      {
+        "date": "2020-09-12",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352255,
+        "time": "20:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "Stuart Attwell",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 0,
+          "name": "Newcastle United",
+          "id": 15
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-15",
+        "venue": "London Stadium",
+        "round": {
+          "name": "Second Round",
+          "id": 27
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 362022,
+        "time": "19:30",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 2,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "A. Marriner",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Charlton Athletic",
+          "id": 6
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-19",
+        "venue": "Emirates Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 362059,
+        "time": "20:00",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Arsenal",
+          "id": 1
+        },
+        "referee": "Michael Oliver",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-22",
+        "venue": "London Stadium",
+        "round": {
+          "name": "Third Round",
+          "id": 29
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 363997,
+        "time": "19:30",
+        "home-team": {
+          "score": 5,
+          "half-time-score": 2,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "S. Hooper",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Hull City",
+          "id": 56
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-27",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 363560,
+        "time": "19:00",
+        "home-team": {
+          "score": 4,
+          "half-time-score": 1,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "Martin Atkinson",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Wolverhampton Wanderers",
+          "id": 44
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-30",
+        "venue": "Goodison Park",
+        "round": {
+          "name": "Fourth Round",
+          "id": 31
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 364538,
+        "time": "19:45",
+        "home-team": {
+          "score": 4,
+          "half-time-score": 1,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "D. England",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-04",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 364209,
+        "time": "12:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Andy Madley",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 2,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-18",
+        "venue": "Tottenham Hotspur Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 364668,
+        "time": "16:30",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 3,
+          "name": "Tottenham Hotspur",
+          "id": 19
+        },
+        "referee": "Paul Tierney",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-24",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352306,
+        "time": "12:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "Anthony Taylor",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-31",
+        "venue": "Anfield",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352312,
+        "time": "17:30",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Liverpool",
+          "id": 11
+        },
+        "referee": "Kevin Friend",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-07",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352327,
+        "time": "20:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "Robert Jones",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Fulham",
+          "id": 10
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-22",
+        "venue": "Bramall Lane",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 366379,
+        "time": "14:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Sheffield United",
+          "id": 38
+        },
+        "referee": "Martin Atkinson",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-30",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367862,
+        "time": "20:00",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "Peter Bankes",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Aston Villa",
+          "id": 2
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-05",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352357,
+        "time": "17:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "Andre Marriner",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 2000,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-11",
+        "venue": "Elland Road",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367823,
+        "time": "20:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Leeds United",
+          "id": 29
+        },
+        "referee": "Michael Oliver",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-16",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367832,
+        "time": "20:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "David Coote",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Crystal Palace",
+          "id": 8
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-21",
+        "venue": "Stamford Bridge",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367840,
+        "time": "20:00",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 1,
+          "name": "Chelsea",
+          "id": 7
+        },
+        "referee": "Chris Kavanagh",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-27",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367842,
+        "time": "14:15",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "Simon Hooper",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Brighton & Hove Albion",
+          "id": 21
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-29",
+        "venue": "St. Mary's Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367847,
+        "time": "18:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Southampton",
+          "id": 18
+        },
+        "referee": "Andy Madley",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-01",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 368725,
+        "time": "17:30",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Kevin Friend",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-11",
+        "venue": "Edgeley Park",
+        "round": {
+          "name": "Third Round",
+          "id": 29
+        },
+        "competition": {
+          "name": "Emirates FA Cup",
+          "id": 21
+        },
+        "id": 368177,
+        "time": "20:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Stockport County",
+          "id": 63
+        },
+        "referee": "Mike Dean",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-16",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352436,
+        "time": "15:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "Chris Kavanagh",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Burnley",
+          "id": 22
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-19",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 368738,
+        "time": "18:00",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "Graham Scott",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "West Bromwich Albion",
+          "id": 20
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-23",
+        "venue": "London Stadium",
+        "round": {
+          "name": "Fourth Round",
+          "id": 31
+        },
+        "competition": {
+          "name": "Emirates FA Cup",
+          "id": 21
+        },
+        "id": 370584,
+        "time": "15:00",
+        "home-team": {
+          "score": 4,
+          "half-time-score": 2,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "Robert Jones",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Doncaster Rovers",
+          "id": 53
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-26",
+        "venue": "Selhurst Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 370851,
+        "time": "18:00",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Crystal Palace",
+          "id": 8
+        },
+        "referee": "Stuart Attwell",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 2,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-31",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 368752,
+        "time": "16:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "Jonathan Moss",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 0,
+          "name": "Liverpool",
+          "id": 11
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-02-03",
+        "venue": "Villa Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 370873,
+        "time": "20:15",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Aston Villa",
+          "id": 2
+        },
+        "referee": "Andy Madley",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-02-06",
+        "venue": "Craven Cottage",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352471,
+        "time": "17:30",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Fulham",
+          "id": 10
+        },
+        "referee": "Mike Dean",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-02-09",
+        "venue": "Old Trafford",
+        "round": {
+          "name": "Fifth Round",
+          "id": 33
+        },
+        "competition": {
+          "name": "Emirates FA Cup",
+          "id": 21
+        },
+        "id": 371113,
+        "time": "19:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Paul Tierney",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT (AET)",
+          "full": "Full Time (AET)"
+        }
+      },
+      {
+        "date": "2021-02-15",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 371100,
+        "time": "18:00",
+        "home-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "S. Hooper",
+        "away-team": {
+          "score": 0,
+          "name": "Sheffield United",
+          "id": 38
+        },
+        "attendance": 0,
+        "status": {
+          "short": "6pm",
+          "full": "Kick off 6pm"
+        }
+      },
+      {
+        "date": "2021-02-21",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 371102,
+        "time": "12:00",
+        "home-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Tottenham Hotspur",
+          "id": 19
+        },
+        "attendance": 0,
+        "status": {
+          "short": "12pm",
+          "full": "Kick off 12pm"
+        }
+      },
+      {
+        "date": "2021-02-27",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352504,
+        "time": "12:30",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "away-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "12.30pm",
+          "full": "Kick off 12.30pm"
+        }
+      },
+      {
+        "date": "2021-03-06",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352518,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Leeds United",
+          "id": 29
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-03-13",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352525,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "away-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-03-20",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352538,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Arsenal",
+          "id": 1
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-03",
+        "venue": "Molineux Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352548,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Wolverhampton Wanderers",
+          "id": 44
+        },
+        "away-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-10",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352558,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-17",
+        "venue": "St. James' Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352566,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Newcastle United",
+          "id": 15
+        },
+        "away-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-24",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352577,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Chelsea",
+          "id": 7
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-01",
+        "venue": "Turf Moor",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352580,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Burnley",
+          "id": 22
+        },
+        "away-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-08",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352597,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-11",
+        "venue": "The American Express Community Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352599,
+        "time": "19:45",
+        "home-team": {
+          "score": 0,
+          "name": "Brighton & Hove Albion",
+          "id": 21
+        },
+        "away-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "7.45pm",
+          "full": "Kick off 7.45pm"
+        }
+      },
+      {
+        "date": "2021-05-15",
+        "venue": "The Hawthorns",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352618,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "West Bromwich Albion",
+          "id": 20
+        },
+        "away-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-23",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352627,
+        "time": "16:00",
+        "home-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Southampton",
+          "id": 18
+        },
+        "attendance": 0,
+        "status": {
+          "short": "4pm",
+          "full": "Kick off 4pm"
+        }
+      }
+    ]
+  }
+}

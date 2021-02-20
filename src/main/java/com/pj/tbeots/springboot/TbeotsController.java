@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.util.List;
 
 @SuppressWarnings("unused")
-@RestController
+@Controller
 public class TbeotsController {
 
     private static final Logger logger = LoggerFactory.getLogger(TbeotsController.class);
@@ -25,7 +25,6 @@ public class TbeotsController {
 
     @RequestMapping("/")
     public String home(ModelMap model) throws IOException {
-
         dataManager.refreshCache(BufferedDataManager.getCurrentLocalDateTime());
         List<LeaguePosition> leaguePositions = dataManager.getLeaguePositions();
         model.addAttribute("leaguePositions", leaguePositions);

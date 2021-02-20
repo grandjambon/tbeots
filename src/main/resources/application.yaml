@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  servlet:
+    contextPath: /tbeots
+
+#spring:
+#  freemarker:
+#    suffix: .ftl
+#    template-loader-path: classpath:/templates

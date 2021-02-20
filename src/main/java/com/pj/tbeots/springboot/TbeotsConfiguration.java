@@ -4,6 +4,7 @@ import com.pj.tbeots.data.BufferedDataManager;
 import com.pj.tbeots.data.DataManager;
 import com.pj.tbeots.data.RapidApiFWPDataManager;
 import com.pj.tbeots.data.remote.RapidApiDataConnector;
+import freemarker.log.Logger;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

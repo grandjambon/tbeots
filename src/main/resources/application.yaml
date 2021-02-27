@@ -3,7 +3,7 @@ server:
   servlet:
     contextPath: /tbeots
 
-#spring:
-#  freemarker:
-#    suffix: .ftl
-#    template-loader-path: classpath:/templates
+spring:
+  freemarker:
+    suffix: .ftl
+    template-loader-path: classpath:/templates

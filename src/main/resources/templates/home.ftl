@@ -22,6 +22,12 @@
                 </#list>
             </tr>
             <tr>
+                <td align="center">Team</td>
+                <#list leaguePositions as pos>
+                    <td align="center" style="border: 1px solid #ccccff; border-collapse:collapse; background-color: white">${pos.team.name}</td>
+                </#list>
+            </tr>
+            <tr>
                 <td align="center">Played</td>
                 <#list leaguePositions as pos>
                     <td align="center" style="border: 1px solid #ccccff; border-collapse:collapse; background-color: white">${pos.played}</td>

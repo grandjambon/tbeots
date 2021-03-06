@@ -1,6 +1,7 @@
 package com.pj.tbeots.data;
 
 import com.pj.tbeots.data.model.Fixture;
+import com.pj.tbeots.data.model.FixtureDate;
 import com.pj.tbeots.data.model.LeaguePosition;
 import com.pj.tbeots.data.model.Team;
 
@@ -17,5 +18,5 @@ public interface DataManager {
 
     List<LeaguePosition> getLeaguePositions() throws IOException;
 
-    Map<String, List<Fixture>> getFixtures() throws IOException;
+    Map<FixtureDate, List<Fixture>> getFixtures() throws IOException;
 }

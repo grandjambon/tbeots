@@ -51,7 +51,7 @@
         <table style="border-collapse: collapse; table-layout: fixed; font-family: monospace;" width=100%>
             <#list fixtures as date,fixtures>
                 <tr>
-                    <td align="center">${date}</td>
+                    <td align="center">${date.presentationDate}</td>
                     <#list fixtures as fixture>
                         <#if fixture??>
                             <#if fixture.competition == "Premier League">

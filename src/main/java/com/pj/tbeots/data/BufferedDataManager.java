@@ -1,6 +1,7 @@
 package com.pj.tbeots.data;
 
 import com.pj.tbeots.data.model.Fixture;
+import com.pj.tbeots.data.model.FixtureDate;
 import com.pj.tbeots.data.model.LeaguePosition;
 import com.pj.tbeots.data.model.Team;
 import org.slf4j.Logger;
@@ -30,7 +31,7 @@ public class BufferedDataManager implements DataManager {
     private LocalDateTime lastRefresh;
     private Map<String, Team> teams;
     private List<LeaguePosition> leaguePositions;
-    private Map<String, List<Fixture>> fixtures;
+    private Map<FixtureDate, List<Fixture>> fixtures;
 
     public BufferedDataManager(DataManager dataManager) {
         this(dataManager, null);
@@ -78,7 +79,7 @@ public class BufferedDataManager implements DataManager {
     }
 
     @Override
-    public synchronized Map<String, List<Fixture>> getFixtures() throws IOException {
+    public synchronized Map<FixtureDate, List<Fixture>> getFixtures() throws IOException {
         return fixtures;
     }
 

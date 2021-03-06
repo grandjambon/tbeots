@@ -7,6 +7,7 @@ import com.pj.tbeots.data.json.rapidapifwp.JsonLeagueTable;
 import com.pj.tbeots.data.json.rapidapifwp.JsonMatch;
 import com.pj.tbeots.data.json.rapidapifwp.JsonTeam;
 import com.pj.tbeots.data.model.Fixture;
+import com.pj.tbeots.data.model.FixtureDate;
 import com.pj.tbeots.data.model.LeaguePosition;
 import com.pj.tbeots.data.model.Team;
 import com.pj.tbeots.data.remote.RapidApiDataConnector;
@@ -61,7 +62,7 @@ public class RapidApiFWPDataManager implements DataManager {
         return new LeaguePosition(team.getPosition(), team.getPoints(), team.getPlayed(), team);
     }
 
-    public Map<String, List<Fixture>> getFixtures() throws IOException {
+    public Map<FixtureDate, List<Fixture>> getFixtures() throws IOException {
         List<LeaguePosition> leagueTable = getLeaguePositions();
         Map<String, Map<String, Fixture>> teamNameToFixtureMap = new TreeMap<>();
 
@@ -94,16 +95,16 @@ public class RapidApiFWPDataManager implements DataManager {
             teamNameToFixtureMap.put(position.getTeam().getName(), fixtures);
         }
 
-        Map<String, List<Fixture>> dateToFixtures = new TreeMap<>();
+        Map<FixtureDate, List<Fixture>> dateToFixtures = new TreeMap<>();
 
-        for (String fixtureDate : validDates) {
+        for (String dateString : validDates) {
             List<Fixture> matches = new ArrayList<>();
             for (LeaguePosition position : leagueTable) {
                 Map<String, Fixture> dateToFixturesMap = teamNameToFixtureMap.computeIfAbsent(position.getTeam().getName(), name -> new HashMap<>());
-                Fixture fixture = dateToFixturesMap.get(fixtureDate);
+                Fixture fixture = dateToFixturesMap.get(dateString);
                 matches.add(fixture);
             }
-            dateToFixtures.put(fixtureDate, matches);
+            dateToFixtures.put(new FixtureDate(dateString), matches);
         }
         return dateToFixtures;
     }

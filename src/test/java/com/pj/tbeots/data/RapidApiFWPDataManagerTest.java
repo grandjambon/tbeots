@@ -2,6 +2,8 @@ package com.pj.tbeots.data;
 
 import com.pj.tbeots.data.json.rapidapifwp.JsonFixtures;
 import com.pj.tbeots.data.json.rapidapifwp.JsonMatch;
+import com.pj.tbeots.data.model.Fixture;
+import com.pj.tbeots.data.model.FixtureDate;
 import com.pj.tbeots.data.model.Team;
 import com.pj.tbeots.data.remote.RapidApiDataConnector;
 import org.junit.jupiter.api.BeforeEach;
@@ -14,9 +16,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.util.Collection;
-import java.util.Map;
-import java.util.TreeSet;
+import java.util.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.lenient;
@@ -57,6 +57,13 @@ public class RapidApiFWPDataManagerTest {
         assertThat(match.getDateString()).isNotNull();
         assertThat(match.getVenue()).isNotNull();
         assertThat(match.getTime()).isNotNull();
+    }
+
+    @Test
+    public void testPresentationDate() throws IOException {
+        Map<FixtureDate, List<Fixture>> fixtures = dataManager.getFixtures();
+        Optional<FixtureDate> first = fixtures.keySet().stream().findFirst();
+        first.ifPresent(fixtureDate -> assertThat(fixtureDate.getPresentationDate()).isEqualTo("Sun 07 Feb"));
     }
 
     @Test

@@ -1,0 +1,1555 @@
+{
+  "fixtures-results": {
+    "team": {
+      "name": "Manchester City",
+      "id": 12
+    },
+    "matches": [
+      {
+        "date": "2020-09-21",
+        "venue": "Molineux Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 359921,
+        "time": "20:15",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Wolverhampton Wanderers",
+          "id": 44
+        },
+        "referee": "Andre Marriner",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 2,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-24",
+        "venue": "Etihad Stadium",
+        "round": {
+          "name": "Third Round",
+          "id": 29
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 364006,
+        "time": "19:45",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "J. Moss",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "AFC Bournemouth",
+          "id": 47
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-27",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 359924,
+        "time": "16:30",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "Michael Oliver",
+        "away-team": {
+          "score": 5,
+          "half-time-score": 1,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-30",
+        "venue": "Turf Moor",
+        "round": {
+          "name": "Fourth Round",
+          "id": 31
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 364536,
+        "time": "19:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Burnley",
+          "id": 22
+        },
+        "referee": "A. Madley",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-03",
+        "venue": "Elland Road",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352282,
+        "time": "17:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Leeds United",
+          "id": 29
+        },
+        "referee": "Mike Dean",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-17",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352293,
+        "time": "17:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "Chris Kavanagh",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Arsenal",
+          "id": 1
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-21",
+        "venue": "Etihad Stadium",
+        "round": {
+          "name": "Group C",
+          "id": 15
+        },
+        "competition": {
+          "name": "UEFA Champions League",
+          "id": 24
+        },
+        "id": 364687,
+        "time": "20:00",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "Andris Treimanis",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "FC Porto",
+          "id": 476
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-24",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352306,
+        "time": "12:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "Anthony Taylor",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-27",
+        "venue": "Orange Vélodrome",
+        "round": {
+          "name": "Group C",
+          "id": 15
+        },
+        "competition": {
+          "name": "UEFA Champions League",
+          "id": 24
+        },
+        "id": 365932,
+        "time": "20:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Marseille",
+          "id": 921
+        },
+        "referee": "Tobias Stieler",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-31",
+        "venue": "Bramall Lane",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352315,
+        "time": "12:30",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Sheffield United",
+          "id": 38
+        },
+        "referee": "Michael Oliver",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-03",
+        "venue": "Etihad Stadium",
+        "round": {
+          "name": "Group C",
+          "id": 15
+        },
+        "competition": {
+          "name": "UEFA Champions League",
+          "id": 24
+        },
+        "id": 366061,
+        "time": "20:00",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "Carlos Del Cerro Grande",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Olympiakos",
+          "id": 923
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-08",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 366378,
+        "time": "16:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "Craig Pawson",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Liverpool",
+          "id": 11
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-21",
+        "venue": "Tottenham Hotspur Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352336,
+        "time": "17:30",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Tottenham Hotspur",
+          "id": 19
+        },
+        "referee": "Mike Dean",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-25",
+        "venue": "Stadio Georgios Karaiskáki",
+        "round": {
+          "name": "Group C",
+          "id": 15
+        },
+        "competition": {
+          "name": "UEFA Champions League",
+          "id": 24
+        },
+        "id": 366082,
+        "time": "17:55",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Olympiakos",
+          "id": 923
+        },
+        "referee": "Davide Massa",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-28",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367859,
+        "time": "15:00",
+        "home-team": {
+          "score": 5,
+          "half-time-score": 3,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "Lee Mason",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Burnley",
+          "id": 22
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-01",
+        "venue": "Estádio Do Dragão",
+        "round": {
+          "name": "Group C",
+          "id": 15
+        },
+        "competition": {
+          "name": "UEFA Champions League",
+          "id": 24
+        },
+        "id": 366093,
+        "time": "20:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "FC Porto",
+          "id": 476
+        },
+        "referee": "Bjorn Kuipers",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-05",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352353,
+        "time": "15:00",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 2,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "Jonathan Moss",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Fulham",
+          "id": 10
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-09",
+        "venue": "Etihad Stadium",
+        "round": {
+          "name": "Group C",
+          "id": 15
+        },
+        "competition": {
+          "name": "UEFA Champions League",
+          "id": 24
+        },
+        "id": 366119,
+        "time": "20:00",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "Halil Umut Meler",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Marseille",
+          "id": 921
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-12",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352364,
+        "time": "17:30",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Chris Kavanagh",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-15",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367827,
+        "time": "20:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "Peter Bankes",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "West Bromwich Albion",
+          "id": 20
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-19",
+        "venue": "St. Mary's Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352385,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Southampton",
+          "id": 18
+        },
+        "referee": "Mike Dean",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-22",
+        "venue": "Emirates Stadium",
+        "round": {
+          "name": "Quarter Final",
+          "id": 37
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 366053,
+        "time": "20:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Arsenal",
+          "id": 1
+        },
+        "referee": "Stuart Attwell",
+        "away-team": {
+          "score": 4,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-26",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352394,
+        "time": "20:00",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "Andre Marriner",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Newcastle United",
+          "id": 15
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-03",
+        "venue": "Stamford Bridge",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 368729,
+        "time": "16:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Chelsea",
+          "id": 7
+        },
+        "referee": "Anthony Taylor",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 3,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-06",
+        "venue": "Old Trafford",
+        "round": {
+          "name": "Semi Final",
+          "id": 39
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 369913,
+        "time": "19:45",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Martin Atkinson",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-10",
+        "venue": "Etihad Stadium",
+        "round": {
+          "name": "Third Round",
+          "id": 29
+        },
+        "competition": {
+          "name": "Emirates FA Cup",
+          "id": 21
+        },
+        "id": 368537,
+        "time": "13:30",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 3,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "Robert Jones",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Birmingham City",
+          "id": 3
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-13",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352427,
+        "time": "18:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "England Darren",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Brighton & Hove Albion",
+          "id": 21
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-17",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 368736,
+        "time": "19:15",
+        "home-team": {
+          "score": 4,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "Lee Mason",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Crystal Palace",
+          "id": 8
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-20",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 369817,
+        "time": "18:00",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "Jonathan Moss",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Aston Villa",
+          "id": 2
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-23",
+        "venue": "Jonny-Rocks Stadium",
+        "round": {
+          "name": "Fourth Round",
+          "id": 31
+        },
+        "competition": {
+          "name": "Emirates FA Cup",
+          "id": 21
+        },
+        "id": 370576,
+        "time": "17:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Cheltenham Town",
+          "id": 73
+        },
+        "referee": "Stuart Attwell",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-26",
+        "venue": "The Hawthorns",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352442,
+        "time": "20:15",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "West Bromwich Albion",
+          "id": 20
+        },
+        "referee": "Chris Kavanagh",
+        "away-team": {
+          "score": 5,
+          "half-time-score": 4,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-30",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352455,
+        "time": "15:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "referee": "David Coote",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Sheffield United",
+          "id": 38
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-02-03",
+        "venue": "Turf Moor",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 370870,
+        "time": "18:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Burnley",
+          "id": 22
+        },
+        "referee": "Martin Atkinson",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 2,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-02-07",
+        "venue": "Anfield",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 370876,
+        "time": "16:30",
+        "home-team": {
+          "score": 0,
+          "name": "Liverpool",
+          "id": 11
+        },
+        "referee": "Michael Oliver",
+        "away-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "4.30pm",
+          "full": "Kick off 4.30pm"
+        }
+      },
+      {
+        "date": "2021-02-10",
+        "venue": "Liberty Stadium",
+        "round": {
+          "name": "Fifth Round",
+          "id": 33
+        },
+        "competition": {
+          "name": "Emirates FA Cup",
+          "id": 21
+        },
+        "id": 371010,
+        "time": "17:30",
+        "home-team": {
+          "score": 0,
+          "name": "Swansea City",
+          "id": 90
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "5.30pm",
+          "full": "Kick off 5.30pm"
+        }
+      },
+      {
+        "date": "2021-02-13",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352485,
+        "time": "17:30",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Tottenham Hotspur",
+          "id": 19
+        },
+        "attendance": 0,
+        "status": {
+          "short": "5.30pm",
+          "full": "Kick off 5.30pm"
+        }
+      },
+      {
+        "date": "2021-02-17",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 371266,
+        "time": "20:15",
+        "home-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "M. Atkinson",
+        "away-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "postponed": true,
+        "status": {
+          "short": "P",
+          "full": "Match Postponed"
+        }
+      },
+      {
+        "date": "2021-02-21",
+        "venue": "Emirates Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 370881,
+        "time": "16:30",
+        "home-team": {
+          "score": 0,
+          "name": "Arsenal",
+          "id": 1
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "4.30pm",
+          "full": "Kick off 4.30pm"
+        }
+      },
+      {
+        "date": "2021-02-24",
+        "venue": "Stadion im BORUSSIA-PARK",
+        "round": {
+          "name": "Round of 16",
+          "id": 51
+        },
+        "competition": {
+          "name": "UEFA Champions League",
+          "id": 24
+        },
+        "id": 368587,
+        "time": "20:00",
+        "home-team": {
+          "score": 0,
+          "name": "Borussia Mönchengladbach",
+          "id": 1288
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "8pm",
+          "full": "Kick off 8pm"
+        }
+      },
+      {
+        "date": "2021-02-27",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352504,
+        "time": "12:30",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "away-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "12.30pm",
+          "full": "Kick off 12.30pm"
+        }
+      },
+      {
+        "date": "2021-03-06",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352514,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-03-13",
+        "venue": "Craven Cottage",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352522,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Fulham",
+          "id": 10
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-03-16",
+        "venue": "Etihad Stadium",
+        "round": {
+          "name": "Round of 16",
+          "id": 51
+        },
+        "competition": {
+          "name": "UEFA Champions League",
+          "id": 24
+        },
+        "id": 368592,
+        "time": "20:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Borussia Mönchengladbach",
+          "id": 1288
+        },
+        "attendance": 0,
+        "status": {
+          "short": "8pm",
+          "full": "Kick off 8pm"
+        }
+      },
+      {
+        "date": "2021-03-20",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352534,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Wolverhampton Wanderers",
+          "id": 44
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-03",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352544,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-10",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352554,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Leeds United",
+          "id": 29
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-17",
+        "venue": "Villa Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352560,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Aston Villa",
+          "id": 2
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-24",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352575,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Southampton",
+          "id": 18
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-25",
+        "venue": "Etihad Stadium",
+        "round": {
+          "name": "Final",
+          "id": 41
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 369957,
+        "time": "16:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Tottenham Hotspur",
+          "id": 19
+        },
+        "attendance": 0,
+        "status": {
+          "short": "4pm",
+          "full": "Kick off 4pm"
+        }
+      },
+      {
+        "date": "2021-04-25",
+        "venue": "Wembley Stadium",
+        "round": {
+          "name": "Final",
+          "id": 41
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 369945,
+        "time": "16:00",
+        "home-team": {
+          "score": 0,
+          "name": "Tottenham Hotspur",
+          "id": 19
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "4pm",
+          "full": "Kick off 4pm"
+        }
+      },
+      {
+        "date": "2021-05-01",
+        "venue": "Selhurst Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352582,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Crystal Palace",
+          "id": 8
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-08",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352595,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Chelsea",
+          "id": 7
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-12",
+        "venue": "St. James' Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352605,
+        "time": "19:45",
+        "home-team": {
+          "score": 0,
+          "name": "Newcastle United",
+          "id": 15
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "7.45pm",
+          "full": "Kick off 7.45pm"
+        }
+      },
+      {
+        "date": "2021-05-15",
+        "venue": "The American Express Community Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352609,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Brighton & Hove Albion",
+          "id": 21
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-23",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352625,
+        "time": "16:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "4pm",
+          "full": "Kick off 4pm"
+        }
+      }
+    ]
+  }
+}

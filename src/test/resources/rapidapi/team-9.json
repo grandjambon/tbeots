@@ -1,0 +1,1221 @@
+{
+  "fixtures-results": {
+    "team": {
+      "name": "Everton",
+      "id": 9
+    },
+    "matches": [
+      {
+        "date": "2020-09-13",
+        "venue": "Tottenham Hotspur Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 359915,
+        "time": "16:30",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Tottenham Hotspur",
+          "id": 19
+        },
+        "referee": "Martin Atkinson",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-16",
+        "venue": "Goodison Park",
+        "round": {
+          "name": "Second Round",
+          "id": 27
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 362078,
+        "time": "20:15",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 1,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "M. Edwards",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Salford City",
+          "id": 778
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-19",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352261,
+        "time": "12:30",
+        "home-team": {
+          "score": 5,
+          "half-time-score": 2,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Mike Dean",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "West Bromwich Albion",
+          "id": 20
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-23",
+        "venue": "Highbury Stadium",
+        "round": {
+          "name": "Third Round",
+          "id": 29
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 364000,
+        "time": "19:45",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 0,
+          "name": "Fleetwood Town",
+          "id": 376
+        },
+        "referee": "J. Simpson",
+        "away-team": {
+          "score": 5,
+          "half-time-score": 2,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-26",
+        "venue": "Selhurst Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352270,
+        "time": "15:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Crystal Palace",
+          "id": 8
+        },
+        "referee": "Kevin Friend",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 2,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-30",
+        "venue": "Goodison Park",
+        "round": {
+          "name": "Fourth Round",
+          "id": 31
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 364538,
+        "time": "19:45",
+        "home-team": {
+          "score": 4,
+          "half-time-score": 1,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "D. England",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-03",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352281,
+        "time": "15:00",
+        "home-team": {
+          "score": 4,
+          "half-time-score": 2,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Simon Hooper",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Brighton & Hove Albion",
+          "id": 21
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-17",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 365677,
+        "time": "12:30",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Michael Oliver",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Liverpool",
+          "id": 11
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-25",
+        "venue": "St. Mary's Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 365074,
+        "time": "14:00",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 2,
+          "name": "Southampton",
+          "id": 18
+        },
+        "referee": "Kevin Friend",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-01",
+        "venue": "St. James' Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 364757,
+        "time": "14:00",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 0,
+          "name": "Newcastle United",
+          "id": 15
+        },
+        "referee": "Stuart Attwell",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-07",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352322,
+        "time": "12:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Paul Tierney",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 2,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-22",
+        "venue": "Craven Cottage",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 366925,
+        "time": "12:00",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Fulham",
+          "id": 10
+        },
+        "referee": "Andy Madley",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 3,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-28",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367857,
+        "time": "17:30",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Chris Kavanagh",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Leeds United",
+          "id": 29
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-05",
+        "venue": "Turf Moor",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352350,
+        "time": "12:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Burnley",
+          "id": 22
+        },
+        "referee": "Anthony Taylor",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-12",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352360,
+        "time": "20:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Jonathan Moss",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Chelsea",
+          "id": 7
+        },
+        "attendance": 2000,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-16",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367830,
+        "time": "18:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Lee Mason",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-19",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352382,
+        "time": "17:30",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 2,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Andre Marriner",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Arsenal",
+          "id": 1
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-23",
+        "venue": "Goodison Park",
+        "round": {
+          "name": "Quarter Final",
+          "id": 37
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 366799,
+        "time": "20:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Andy Madley",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 2000,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-26",
+        "venue": "Bramall Lane",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352395,
+        "time": "20:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Sheffield United",
+          "id": 38
+        },
+        "referee": "David Coote",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-01",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 368725,
+        "time": "17:30",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Kevin Friend",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-09",
+        "venue": "Goodison Park",
+        "round": {
+          "name": "Third Round",
+          "id": 29
+        },
+        "competition": {
+          "name": "Emirates FA Cup",
+          "id": 21
+        },
+        "id": 367950,
+        "time": "12:00",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Stuart Attwell",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Rotherham United",
+          "id": 37
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT (AET)",
+          "full": "Full Time (AET)"
+        }
+      },
+      {
+        "date": "2021-01-12",
+        "venue": "Molineux Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352425,
+        "time": "20:15",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Wolverhampton Wanderers",
+          "id": 44
+        },
+        "referee": "Martin Atkinson",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-24",
+        "venue": "Goodison Park",
+        "round": {
+          "name": "Fourth Round",
+          "id": 31
+        },
+        "competition": {
+          "name": "Emirates FA Cup",
+          "id": 21
+        },
+        "id": 370715,
+        "time": "20:00",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 1,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Graham Scott",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Sheffield Wednesday",
+          "id": 62
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-27",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 368747,
+        "time": "20:15",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Mike Dean",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-30",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352453,
+        "time": "12:30",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Stuart Attwell",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 0,
+          "name": "Newcastle United",
+          "id": 15
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-02-03",
+        "venue": "Elland Road",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 370872,
+        "time": "19:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Leeds United",
+          "id": 29
+        },
+        "referee": "Michael Oliver",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 2,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-02-06",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 371093,
+        "time": "20:00",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 2,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Jonathan Moss",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-02-10",
+        "venue": "Goodison Park",
+        "round": {
+          "name": "Fifth Round",
+          "id": 33
+        },
+        "competition": {
+          "name": "Emirates FA Cup",
+          "id": 21
+        },
+        "id": 371024,
+        "time": "20:15",
+        "home-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Tottenham Hotspur",
+          "id": 19
+        },
+        "attendance": 0,
+        "status": {
+          "short": "8.15pm",
+          "full": "Kick off 8.15pm"
+        }
+      },
+      {
+        "date": "2021-02-14",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 371099,
+        "time": "19:00",
+        "home-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Fulham",
+          "id": 10
+        },
+        "attendance": 0,
+        "status": {
+          "short": "7pm",
+          "full": "Kick off 7pm"
+        }
+      },
+      {
+        "date": "2021-02-17",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 371266,
+        "time": "20:15",
+        "home-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "M. Atkinson",
+        "away-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "postponed": true,
+        "status": {
+          "short": "P",
+          "full": "Match Postponed"
+        }
+      },
+      {
+        "date": "2021-02-20",
+        "venue": "Anfield",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352494,
+        "time": "17:30",
+        "home-team": {
+          "score": 0,
+          "name": "Liverpool",
+          "id": 11
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "5.30pm",
+          "full": "Kick off 5.30pm"
+        }
+      },
+      {
+        "date": "2021-03-01",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 370886,
+        "time": "20:00",
+        "home-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Southampton",
+          "id": 18
+        },
+        "attendance": 0,
+        "status": {
+          "short": "8pm",
+          "full": "Kick off 8pm"
+        }
+      },
+      {
+        "date": "2021-03-06",
+        "venue": "Stamford Bridge",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352512,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Chelsea",
+          "id": 7
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-03-13",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352521,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Burnley",
+          "id": 22
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-03-20",
+        "venue": "The Hawthorns",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352537,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "West Bromwich Albion",
+          "id": 20
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-03",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352542,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Crystal Palace",
+          "id": 8
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-10",
+        "venue": "The American Express Community Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352549,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Brighton & Hove Albion",
+          "id": 21
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-17",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352562,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Tottenham Hotspur",
+          "id": 19
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-24",
+        "venue": "Emirates Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352569,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Arsenal",
+          "id": 1
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-01",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352583,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Aston Villa",
+          "id": 2
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-08",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352597,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-11",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352601,
+        "time": "19:45",
+        "home-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Sheffield United",
+          "id": 38
+        },
+        "attendance": 0,
+        "status": {
+          "short": "7.45pm",
+          "full": "Kick off 7.45pm"
+        }
+      },
+      {
+        "date": "2021-05-15",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352613,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Wolverhampton Wanderers",
+          "id": 44
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-23",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352625,
+        "time": "16:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "4pm",
+          "full": "Kick off 4pm"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1500 @@
+{
+  "fixtures-results": {
+    "team": {
+      "name": "Manchester United",
+      "id": 13
+    },
+    "matches": [
+      {
+        "date": "2020-09-19",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352264,
+        "time": "17:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Martin Atkinson",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 1,
+          "name": "Crystal Palace",
+          "id": 8
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-22",
+        "venue": "Kenilworth Road",
+        "round": {
+          "name": "Third Round",
+          "id": 29
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 363998,
+        "time": "20:15",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Luton Town",
+          "id": 57
+        },
+        "referee": "T. Robinson",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 1,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-26",
+        "venue": "The American Express Community Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352268,
+        "time": "12:30",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Brighton & Hove Albion",
+          "id": 21
+        },
+        "referee": "Chris Kavanagh",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 1,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-09-30",
+        "venue": "The American Express Community Stadium",
+        "round": {
+          "name": "Fourth Round",
+          "id": 31
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 364537,
+        "time": "19:45",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Brighton & Hove Albion",
+          "id": 21
+        },
+        "referee": "G. Scott",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 1,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-04",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 364213,
+        "time": "16:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Anthony Taylor",
+        "away-team": {
+          "score": 6,
+          "half-time-score": 4,
+          "name": "Tottenham Hotspur",
+          "id": 19
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-17",
+        "venue": "St. James' Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352294,
+        "time": "20:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Newcastle United",
+          "id": 15
+        },
+        "referee": "Craig Pawson",
+        "away-team": {
+          "score": 4,
+          "half-time-score": 1,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-20",
+        "venue": "Parc des Princes",
+        "round": {
+          "name": "Group H",
+          "id": 20
+        },
+        "competition": {
+          "name": "UEFA Champions League",
+          "id": 24
+        },
+        "id": 364681,
+        "time": "20:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Paris St Germain",
+          "id": 497
+        },
+        "referee": "Antonio Mateu",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-24",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352304,
+        "time": "17:30",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Martin Atkinson",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Chelsea",
+          "id": 7
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-10-28",
+        "venue": "Old Trafford",
+        "round": {
+          "name": "Group H",
+          "id": 20
+        },
+        "competition": {
+          "name": "UEFA Champions League",
+          "id": 24
+        },
+        "id": 365942,
+        "time": "20:00",
+        "home-team": {
+          "score": 5,
+          "half-time-score": 1,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Matej Jug",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "RB Leipzig",
+          "id": 1964
+        },
+        "attendance": 577,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-01",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 364758,
+        "time": "16:30",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Mike Dean",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Arsenal",
+          "id": 1
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-04",
+        "venue": "Başakşehir Fatih Terim Stadyumu",
+        "round": {
+          "name": "Group H",
+          "id": 20
+        },
+        "competition": {
+          "name": "UEFA Champions League",
+          "id": 24
+        },
+        "id": 366066,
+        "time": "17:55",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 2,
+          "name": "İstanbul Başakşehir",
+          "id": 1733
+        },
+        "referee": "Davide Massa",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 350,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-07",
+        "venue": "Goodison Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352322,
+        "time": "12:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Paul Tierney",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 2,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-21",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352333,
+        "time": "20:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "David Coote",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "West Bromwich Albion",
+          "id": 20
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-24",
+        "venue": "Old Trafford",
+        "round": {
+          "name": "Group H",
+          "id": 20
+        },
+        "competition": {
+          "name": "UEFA Champions League",
+          "id": 24
+        },
+        "id": 366080,
+        "time": "20:00",
+        "home-team": {
+          "score": 4,
+          "half-time-score": 3,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "O. Hațegan",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "İstanbul Başakşehir",
+          "id": 1733
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-11-29",
+        "venue": "St. Mary's Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367860,
+        "time": "14:00",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 2,
+          "name": "Southampton",
+          "id": 18
+        },
+        "referee": "Jonathan Moss",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-02",
+        "venue": "Old Trafford",
+        "round": {
+          "name": "Group H",
+          "id": 20
+        },
+        "competition": {
+          "name": "UEFA Champions League",
+          "id": 24
+        },
+        "id": 366104,
+        "time": "20:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Daniele Orsato",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 1,
+          "name": "Paris St Germain",
+          "id": 497
+        },
+        "attendance": 638,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-05",
+        "venue": "London Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352357,
+        "time": "17:30",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "referee": "Andre Marriner",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 2000,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-08",
+        "venue": "Red Bull Arena",
+        "round": {
+          "name": "Group H",
+          "id": 20
+        },
+        "competition": {
+          "name": "UEFA Champions League",
+          "id": 24
+        },
+        "id": 366112,
+        "time": "20:00",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 2,
+          "name": "RB Leipzig",
+          "id": 1964
+        },
+        "referee": "Antonio Mateu",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-12",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352364,
+        "time": "17:30",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Chris Kavanagh",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-17",
+        "venue": "Bramall Lane",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367834,
+        "time": "20:00",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Sheffield United",
+          "id": 38
+        },
+        "referee": "Michael Oliver",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 2,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-20",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367837,
+        "time": "16:30",
+        "home-team": {
+          "score": 6,
+          "half-time-score": 4,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Anthony Taylor",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Leeds United",
+          "id": 29
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-23",
+        "venue": "Goodison Park",
+        "round": {
+          "name": "Quarter Final",
+          "id": 37
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 366799,
+        "time": "20:00",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "referee": "Andy Madley",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 2000,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-26",
+        "venue": "King Power Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352392,
+        "time": "12:30",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "referee": "Mike Dean",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2020-12-29",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 367849,
+        "time": "20:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Jonathan Moss",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Wolverhampton Wanderers",
+          "id": 44
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-01",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 368726,
+        "time": "20:00",
+        "home-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Michael Oliver",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Aston Villa",
+          "id": 2
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-06",
+        "venue": "Old Trafford",
+        "round": {
+          "name": "Semi Final",
+          "id": 39
+        },
+        "competition": {
+          "name": "Carabao Cup",
+          "id": 22
+        },
+        "id": 369913,
+        "time": "19:45",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Martin Atkinson",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-09",
+        "venue": "Old Trafford",
+        "round": {
+          "name": "Third Round",
+          "id": 29
+        },
+        "competition": {
+          "name": "Emirates FA Cup",
+          "id": 21
+        },
+        "id": 367955,
+        "time": "20:00",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Andy Madley",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Watford",
+          "id": 41
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-12",
+        "venue": "Turf Moor",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 369816,
+        "time": "20:15",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Burnley",
+          "id": 22
+        },
+        "referee": "Kevin Friend",
+        "away-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-17",
+        "venue": "Anfield",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 368735,
+        "time": "16:30",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Liverpool",
+          "id": 11
+        },
+        "referee": "Paul Tierney",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-20",
+        "venue": "Craven Cottage",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 368741,
+        "time": "20:15",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 1,
+          "name": "Fulham",
+          "id": 10
+        },
+        "referee": "Martin Atkinson",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-24",
+        "venue": "Old Trafford",
+        "round": {
+          "name": "Fourth Round",
+          "id": 31
+        },
+        "competition": {
+          "name": "Emirates FA Cup",
+          "id": 21
+        },
+        "id": 370714,
+        "time": "17:00",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 1,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Craig Pawson",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Liverpool",
+          "id": 11
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-27",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 368748,
+        "time": "20:15",
+        "home-team": {
+          "score": 1,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Peter Bankes",
+        "away-team": {
+          "score": 2,
+          "half-time-score": 1,
+          "name": "Sheffield United",
+          "id": 38
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-01-30",
+        "venue": "Emirates Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352449,
+        "time": "17:30",
+        "home-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Arsenal",
+          "id": 1
+        },
+        "referee": "Michael Oliver",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-02-02",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352465,
+        "time": "20:15",
+        "home-team": {
+          "score": 9,
+          "half-time-score": 4,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Mike Dean",
+        "away-team": {
+          "score": 0,
+          "half-time-score": 0,
+          "name": "Southampton",
+          "id": 18
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-02-06",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 371093,
+        "time": "20:00",
+        "home-team": {
+          "score": 3,
+          "half-time-score": 2,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "referee": "Jonathan Moss",
+        "away-team": {
+          "score": 3,
+          "half-time-score": 0,
+          "name": "Everton",
+          "id": 9
+        },
+        "attendance": 0,
+        "status": {
+          "short": "FT",
+          "full": "Full Time"
+        }
+      },
+      {
+        "date": "2021-02-09",
+        "venue": "Old Trafford",
+        "round": {
+          "name": "Fifth Round",
+          "id": 33
+        },
+        "competition": {
+          "name": "Emirates FA Cup",
+          "id": 21
+        },
+        "id": 371113,
+        "time": "19:30",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "away-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "7.30pm",
+          "full": "Kick off 7.30pm"
+        }
+      },
+      {
+        "date": "2021-02-14",
+        "venue": "The Hawthorns",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 371098,
+        "time": "14:00",
+        "home-team": {
+          "score": 0,
+          "name": "West Bromwich Albion",
+          "id": 20
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "2pm",
+          "full": "Kick off 2pm"
+        }
+      },
+      {
+        "date": "2021-02-18",
+        "venue": "Reale Arena",
+        "round": {
+          "name": "Round of 32",
+          "id": 49
+        },
+        "competition": {
+          "name": "Europa League",
+          "id": 25
+        },
+        "id": 368600,
+        "time": "17:55",
+        "home-team": {
+          "score": 0,
+          "name": "Real Sociedad",
+          "id": 1401
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "5.55pm",
+          "full": "Kick off 5.55pm"
+        }
+      },
+      {
+        "date": "2021-02-21",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 370882,
+        "time": "19:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Newcastle United",
+          "id": 15
+        },
+        "attendance": 0,
+        "status": {
+          "short": "7pm",
+          "full": "Kick off 7pm"
+        }
+      },
+      {
+        "date": "2021-02-25",
+        "venue": "Old Trafford",
+        "round": {
+          "name": "Round of 32",
+          "id": 49
+        },
+        "competition": {
+          "name": "Europa League",
+          "id": 25
+        },
+        "id": 368624,
+        "time": "20:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Real Sociedad",
+          "id": 1401
+        },
+        "attendance": 0,
+        "status": {
+          "short": "8pm",
+          "full": "Kick off 8pm"
+        }
+      },
+      {
+        "date": "2021-02-28",
+        "venue": "Stamford Bridge",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 370885,
+        "time": "16:30",
+        "home-team": {
+          "score": 0,
+          "name": "Chelsea",
+          "id": 7
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "4.30pm",
+          "full": "Kick off 4.30pm"
+        }
+      },
+      {
+        "date": "2021-03-06",
+        "venue": "Etihad Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352514,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester City",
+          "id": 12
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-03-13",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352525,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "away-team": {
+          "score": 0,
+          "name": "West Ham United",
+          "id": 42
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-03-20",
+        "venue": "Selhurst Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352531,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Crystal Palace",
+          "id": 8
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-03",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352545,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Brighton & Hove Albion",
+          "id": 21
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-10",
+        "venue": "Tottenham Hotspur Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352556,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Tottenham Hotspur",
+          "id": 19
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-17",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352565,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Burnley",
+          "id": 22
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-04-24",
+        "venue": "Elland Road",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352572,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Leeds United",
+          "id": 29
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-01",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352584,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Liverpool",
+          "id": 11
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-08",
+        "venue": "Villa Park",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352590,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Aston Villa",
+          "id": 2
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-11",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352602,
+        "time": "20:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Leicester City",
+          "id": 30
+        },
+        "attendance": 0,
+        "status": {
+          "short": "8pm",
+          "full": "Kick off 8pm"
+        }
+      },
+      {
+        "date": "2021-05-15",
+        "venue": "Old Trafford",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352614,
+        "time": "15:00",
+        "home-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Fulham",
+          "id": 10
+        },
+        "attendance": 0,
+        "status": {
+          "short": "3pm",
+          "full": "Kick off 3pm"
+        }
+      },
+      {
+        "date": "2021-05-23",
+        "venue": "Molineux Stadium",
+        "competition": {
+          "name": "Premier League",
+          "id": 1
+        },
+        "id": 352628,
+        "time": "16:00",
+        "home-team": {
+          "score": 0,
+          "name": "Wolverhampton Wanderers",
+          "id": 44
+        },
+        "away-team": {
+          "score": 0,
+          "name": "Manchester United",
+          "id": 13
+        },
+        "attendance": 0,
+        "status": {
+          "short": "4pm",
+          "full": "Kick off 4pm"
+        }
+      }
+    ]
+  }
+}

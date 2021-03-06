@@ -18,31 +18,32 @@ public class JsonMatch {
     private int matchId;
 
     private String dateString;
-    private LocalDate date;
 
+    private LocalDate date;
+    private String dayOfWeek;
     @JsonProperty
     private String venue;
 
     // set in competition setter
+
     private String competitionName;
     private String competitionId;
-
     private int homeGoals;
+
     private String homeTeam;
     private int homeTeamId;
-
     private int awayGoals;
+
     private String awayTeam;
     private int awayTeamId;
-
     private String round;
-    private int roundId;
 
+    private int roundId;
     @JsonProperty
     private String time;
+
     @JsonProperty
     private int attendance;
-
     @JsonProperty
     private String referee;
 
@@ -56,6 +57,7 @@ public class JsonMatch {
     private void setDate(String dateString) {
         this.dateString = dateString;
         this.date = LocalDate.parse(dateString, DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+        this.dayOfWeek = date.format(DateTimeFormatter.ofPattern("EEE"));
     }
 
     @JsonSetter("competition")
@@ -63,6 +65,7 @@ public class JsonMatch {
         this.competitionName = values.get("name");
         this.competitionId = values.get("id");
     }
+
     @JsonSetter("home-team")
     private void setHomeTeam(Map<String, String> values) {
         this.homeTeam = values.get("name");
@@ -75,14 +78,13 @@ public class JsonMatch {
         this.awayGoals = Integer.parseInt(values.get("score"));
         this.awayTeamId = Integer.parseInt(values.get("id"));
     }
-
     @JsonSetter("status")
     private void setStatus(Map<String, String> values) {
         this.fullStatus = values.get("full");
         this.shortStatus = values.get("short");
         if ("Full Time".equals(fullStatus)) {
             this.status = Status.RESULT;
-        } else if (fullStatus.startsWith("Kick off")) {
+        } else if (fullStatus.startsWith("Kick off") || fullStatus.equals("Match Postponed")) {
             this.status = Status.FIXTURE;
         } else {
             this.status = Status.LIVE;
@@ -95,7 +97,7 @@ public class JsonMatch {
         this.roundId = Integer.parseInt(values.get("id"));
     }
 
-    public int getAttendence() {
+    public int getAttendance() {
         return attendance;
     }
 
@@ -105,6 +107,10 @@ public class JsonMatch {
 
     public LocalDate getDate() {
         return date;
+    }
+
+    public String getDayOfWeek() {
+        return dayOfWeek;
     }
 
     public String getVenue() {

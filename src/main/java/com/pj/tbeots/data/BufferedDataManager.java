@@ -46,6 +46,10 @@ public class BufferedDataManager implements DataManager {
     public synchronized void refreshCache(LocalDateTime now) throws IOException {
         if (lastRefresh == null || (isRefreshPeriod(now) && now.isAfter(lastRefresh.plus(REFRESH_BUFFER, ChronoUnit.MINUTES)))) {
             logger.info("lastRefresh = {} - currently = {} so rebuilding cache", lastRefresh == null ? null : lastRefresh.format(DATE_TIME_FORMATTER), now.format(DATE_TIME_FORMATTER));
+
+            // in case anything needed
+            dataManager.refreshCache(now);
+
             this.teams = dataManager.getTeams();
             this.leaguePositions = dataManager.getLeaguePositions();
             this.fixtures = dataManager.getFixtures();

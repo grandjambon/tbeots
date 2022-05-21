@@ -47,4 +47,8 @@ public class JsonTeam {
     public int getPlayed() {
         return allMatches.get("played");
     }
+
+    public int getGoalDifference() {
+        return allMatches.get("goal-difference");
+    }
 }

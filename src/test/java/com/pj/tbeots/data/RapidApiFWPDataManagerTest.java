@@ -42,6 +42,12 @@ public class RapidApiFWPDataManagerTest {
     public void testTeams() throws IOException {
         Map<String, Team> teams = dataManager.getTeams();
         assertThat(teams).hasSize(20);
+        assertThat(teams).containsKey("City");
+        Team city = teams.get("City");
+        assertThat(city.getGoalDifference()).isEqualTo(26);
+        assertThat(teams).containsKey("Leeds");
+        Team leeds = teams.get("Leeds");
+        assertThat(leeds.getGoalDifference()).isEqualTo(-2);
     }
 
     @Test

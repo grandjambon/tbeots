@@ -40,6 +40,12 @@
                 </#list>
             </tr>
             <tr>
+                <td align="center">Goal Diff</td>
+                <#list leaguePositions as pos>
+                    <td align="center" style="border: 1px solid #ccccff; border-collapse:collapse; background-color: white">${pos.goalDiff}</td>
+                </#list>
+            </tr>
+            <tr>
                 <td align="center">Max Points</td>
                 <#list leaguePositions as pos>
                     <td align="center" style="border: 1px solid #ccccff; border-collapse:collapse; background-color: white">${pos.maxPoints}</td>

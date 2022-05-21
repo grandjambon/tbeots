@@ -40,7 +40,7 @@ public class RapidApiFWPDataManager implements DataManager {
     }
 
     private Team jsonTeamToTeam(JsonTeam j) {
-        return new Team(j.getName(), j.getId(), j.getPosition(), j.getPoints(), j.getPlayed());
+        return new Team(j.getName(), j.getId(), j.getPosition(), j.getPoints(), j.getPlayed(), j.getGoalDifference());
     }
 
 
@@ -59,7 +59,7 @@ public class RapidApiFWPDataManager implements DataManager {
     }
 
     private LeaguePosition teamToLeaguePosition(Team team) {
-        return new LeaguePosition(team.getPosition(), team.getPoints(), team.getPlayed(), team);
+        return new LeaguePosition(team.getPosition(), team.getPoints(), team.getPlayed(), team.getGoalDifference(), team);
     }
 
     public Map<FixtureDate, List<Fixture>> getFixtures() throws IOException {

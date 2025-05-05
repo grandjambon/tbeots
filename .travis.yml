@@ -1,4 +1,6 @@
 language: java
+os: linux
+dist: focal
 deploy:
   provider: elasticbeanstalk
   skip_cleanup: true
@@ -9,8 +11,6 @@ deploy:
   zip_file: target/tbeots.war
   env: tbeots
   bucket_name: elasticbeanstalk-eu-west-2-307854530528
-  os: linux
-  dist: focal
   on:
     repo: grandjambon/tbeots
     branch: master

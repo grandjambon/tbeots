@@ -60,10 +60,10 @@ public class BufferedDataManager implements DataManager {
             case WEDNESDAY:
             case THURSDAY:
             case FRIDAY:
-                return now.getHour() >= 18 && now.getHour() < 22;
+                return now.getHour() >= 18 && now.getHour() < 23;
             case SATURDAY:
             case SUNDAY:
-                return now.getHour() >= 12 && now.getHour() < 22;
+                return now.getHour() >= 12 && now.getHour() < 23;
         }
         return false;
     }

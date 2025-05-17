@@ -32,7 +32,7 @@ public class BufferedDataManagerTest {
             arguments(false, ldt(LAST_SUNDAY, 22,0), ldt(MONDAY, 14, 0)),// not within window for Monday
             arguments(true, null, ldt(MONDAY, 14, 0)),       // not initialised so initialise regardless of it being outside of the window
             arguments(true, ldt(LAST_SUNDAY, 22,0), ldt(MONDAY, 18, 10)), // within window for Monday, and longer than 15 mins
-            arguments(false, ldt(MONDAY, 21, 45), ldt(MONDAY, 22, 5)),    // after window has closed for Monday
+            arguments(false, ldt(MONDAY, 21, 45), ldt(MONDAY, 23, 5)),    // after window has closed for Monday
             arguments(true, ldt(SATURDAY, 14,0), ldt(SATURDAY, 14, 20)), // within window for Saturday, and longer than 15 mins since last refresh
             arguments(false, ldt(SUNDAY, 14,0), ldt(SUNDAY, 14,10))  // within window for Sunday, but not 15 mins since last refresh
         );
